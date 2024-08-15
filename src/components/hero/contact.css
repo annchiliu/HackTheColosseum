@@ -8,7 +8,7 @@
 }
 
 .photo-container {
-  width: 20vw; /* Set the desired width */
+  width: 15vw; /* Set the desired width */
   height: 30vh; /* Set the desired height */
   display: flex;
   align-items: center;
@@ -31,7 +31,8 @@
 }
 
 .member-container {
-  margin: 15px;
+  margin-bottom: 35px;
+  margin-right: 15px;
 }
 
 .name-title h4 {
