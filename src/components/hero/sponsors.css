@@ -159,6 +159,23 @@
   max-width: 40vw;
 }
 
+.sponsors-container-sub h2 {
+  text-transform: uppercase;
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+.silver-container h2 {
+  text-transform: uppercase;
+  font-size: 3vw;
+  font-weight: bold;
+  color: rgb(140, 138, 138);
+}
+
+.bronze-container h2 {
+  color: bronze;
+}
+
 .link-launch-icon {
   width: 30px;
   height: 100%;

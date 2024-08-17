@@ -113,7 +113,7 @@ const contact = () => {
 
               <div className= "member-container">
                   <div className="photo-container">
-                    <img src="/images/annchi.png" className="member-img" alt="team member photo"/>
+                    <img src="/images/annchi.jpg" className="member-img" alt="team member photo"/>
                   </div>
                   <div className="name-title">
                     <h3>Annchi Liu</h3>
@@ -136,7 +136,7 @@ const contact = () => {
 
              <div className= "member-container">
                   <div className="photo-container">
-                    <img src="/images/default.jpg" className="member-img" alt="team member photo"/>
+                    <img src="/images/dani.jpg" className="member-img" alt="team member photo"/>
                   </div>
                   <div className="name-title">
                     <h3>Dani Foster</h3>
