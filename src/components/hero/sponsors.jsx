@@ -15,16 +15,37 @@ const sponsors = () => {
         </h1>
 
         <div className="sponsors-container">
-          <div className="sponsors-container-sub" id="silver-container">
-              <h2>Silver</h2>
+          <h2>Our Silver Sponsors</h2>
+          <div className="sponsors-container-sub silver" id="silver-container">
               <div className="sponsors-name">
-                <img src="/images/stansberry-research-logo.png"></img>
+                <a href="https://stansberryresearch.com/"
+                target="_blank">
+                <img className="" src="/images/Stansberry.png"></img>
+                </a>
+              </div>
+
+              <div className="sponsors-name">
+                <a href="https://brightbots.org/"
+                target="_blank">
+                <img className="" src="/images/Brightbot.png"></img>
+                </a>
+              </div>
+
+              <div className="sponsors-name">
+                <a href="https://brightbots.org/"
+                target="_blank">
+                <img className="" src="/images/Net.png"></img>
+                </a>
               </div>
           </div>
-          <div className="sponsors-container-sub" id="bronze-container">
-            <h2>Bronze</h2>
+
+          <h2>Our Bronze Sponsors</h2>
+          <div className="sponsors-container-sub bronze">
             <div className="sponsors-name">
-              <img src="/images/wolfram.png"></img>
+              <a href="https://www.wolframalpha.com/"
+              target="_blank">
+              <img src="/images/WolframAlpha.png"></img>
+              </a>
             </div>
           </div>
 

@@ -22,8 +22,17 @@
   height: 100%;
   object-fit: cover; /* Ensures the image covers the div */
   object-position: center; /* Center the image */
+
+  border: 0px solid transparent; /* Start with no visible border */
+  outline: 2px solid transparent;
+  transition: outline-offset 0.s ease, outline-color 0.3s ease;
+  outline-offset: 2px;
 }
 
+.photo-container :hover {
+  outline-color: #48a5a5; /* Color of the outline on hover */
+  outline-offset: 0px;
+}
 
 .member-container h3 {
   font-size: 1.4rem;

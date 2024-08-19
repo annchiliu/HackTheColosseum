@@ -11,7 +11,7 @@ const footer = () => {
           2024 - {"All Rights Reserved."}
         </p>
         <p className="copyright">
-          Developed by{" "}
+          Template by {"  "}
           <a href="https://upwork.com/freelancers/shadowctrl" target="_blank">
             shadowctrl
           </a>
