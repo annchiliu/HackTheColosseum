@@ -158,13 +158,8 @@ const faqs = () => {
             <p className="faqs-content-description">
               We have $10k+ in prizes between our online
               and in-person tracks!
-            </p>
 
-            <table>
-              <tr>
-                <th>Name</th>
-                <th>Cost</th>
-              </tr>
+              <table>
               <tr>
                 <th>Gaming Keyboard (x3) [in-person, 1st]</th>
                 <th>$78</th>
@@ -185,7 +180,8 @@ const faqs = () => {
                 <th>$5 Apple Gift Card (x3) [activities award]</th>
                 <th>$15</th>
               </tr>
-            </table>
+              </table>
+            </p>
           </div>
         </div>
       </div>

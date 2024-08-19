@@ -171,27 +171,45 @@ background-position:
 .agenda-des {
   text-align: justify;
   padding: 3vh 3vw;
-  border: 5px #2c2218 solid;
-  border-radius: 10px;
+  padding: 2vh 2vw;
+  letter-spacing: .1px;
+  border-top: 5px solid;
+  border-left: 5px solid;
+  border-bottom: 5px solid;
+  border-right: 5px solid;
+  border-image: linear-gradient(
+    to right top,
+    #fbd583,
+    #e7de8e,
+    #eedfab,
+    #e7de8e,
+    #ffc146,
+    #fbd583
+  );
+  border-radius: 6px;
   border-image-slice: 1;
-  font-family: raleway;
+  background-color: rgb(254, 251, 247);
+  font-family: poppins;
+  font-weight: 100;
+  padding: 20px;
+  text-align: left;
   font-size: 1.5vw;
   font-weight: 600;
   position: relative;
+  color: black;
   /* isolation: isolate; */
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     font-size: 3.5vw;
     padding: 2vh 3vw;
   }
 }
-.agenda-des::after {
+/* .agenda-des::after {
   content: "";
   position: absolute;
-  z-index: 2;
+  z-index: 0;
   inset: 0;
-
-  background-color: rgb(255, 60, 111, 0.1);
-}
+  background-color: #d5d3d314;
+} */
 
 .parent-vision {
   position: relative;
@@ -257,19 +275,16 @@ background-position:
     margin-right: 0;
   }
 }
+
 .about-vision-title {
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: bernie;
-  font-size: 5vw;
+  font-size: 6vw;
   font-weight: 900;
-  margin-left: 6vw;
   text-transform: uppercase;
   letter-spacing: 10px;
-  background-color: #18cea9;
-  text-shadow: 3px .1px 0px #18cec8;
-  background-image: linear-gradient(326deg, #24c2b2 0%, #19bfa9 74%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -279,6 +294,20 @@ background-position:
     margin: 0;
     padding: 0vh 2vw;
   }
+}
+
+.vision-title {
+  background-color: #18cea9;
+  text-shadow: 3px .1px 0px #18cec8;
+  background-image: linear-gradient(326deg, #24c2b2 0%, #19bfa9 74%);
+  margin-left: 6vw;
+}
+
+.mission-title {
+  background-color: #ce1818;
+  text-shadow: 3px .1px 0px #ec3d3d;
+  background-image: linear-gradient(326deg, #c22924 0%, #c92121 74%);
+  margin-right: 3vw;
 }
 
 .about-vision-description {
@@ -298,7 +327,9 @@ background-position:
     #fbd583
   );
   border-image-slice: 1;
-  font-family: raleway;
+  font-family: poppins;
+  padding: 20px;
+  text-align: left;
   font-size: 1.3vw;
   font-weight: 600;
   position: relative;
@@ -347,7 +378,7 @@ background-position:
    /* background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12'%3E%3Cpath d='M9.8 12 0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z' fill='%239C92AC' fill-opacity='.26' fill-rule='evenodd'/%3E%3C/svg%3E"); */
 }
 .about-mission-title {
-  margin-right: 6vw;
+  margin-right: 5vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -384,7 +415,9 @@ background-position:
     #ffffff
   );
   border-image-slice: 1;
-  font-family: raleway;
+  font-family: poppins;
+  padding: 20px;
+  text-align: left;
   font-size: 1.3vw;
   font-weight: 600;
   position: relative;

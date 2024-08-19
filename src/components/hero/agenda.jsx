@@ -70,7 +70,7 @@ const section2 = () => {
         </div>
         <div className="parent-vision">
           <div className="vision">
-            <div className="about-vision-title " id="agenda-left">
+            <div className="about-vision-title vision-title" id="agenda-left">
               {/* <img
                 src="/images/target.png"
                 alt="vision-image"
@@ -90,13 +90,7 @@ const section2 = () => {
             </div>
           </div>
           <div className="mission">
-            <div className="about-mission-title" id="agenda-right">
-              {/* <img
-                src="/images/target.png"
-                alt="mission-image"
-                width={"120px"}
-                className="about-mission-image"
-              /> */}
+            <div className="about-vision-title mission-title" id="agenda-right">
               Mission
             </div>
             <div className="about-mission-description" id="agenda-left">
