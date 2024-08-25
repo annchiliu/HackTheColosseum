@@ -30,7 +30,6 @@
       70px 50px;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     display: none;
-    
   }
 }
 .parent .title {
@@ -208,19 +207,21 @@
   color: white;
   cursor: pointer;
 }
+
 .main-navbar-mobile {
   margin: 0;
 }
+
 .parent-navbar-mobile {
-  margin: 0.5vh 1vw;
+  margin: 0;
   position: relative;
   padding: 0.5vh 1vw;
   font-family: Oswald;
   color: white;
   background-color: black;
-  border-radius: 3vw;
+  border-radius: 0;
   transition: all 0.3s linear;
-  height: 6vh;
+  height: 6.5vh;
   display: none;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     display: block;

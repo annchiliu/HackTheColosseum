@@ -130,11 +130,11 @@ const hero = () => {
 
             <div className="description">
               <p>
-                The Glenelg High School Competitive Programming Club is excited to introduce its up-and-coming hybrid hackathon: <span className="bold-text">Hack the Colosseum</span>, sponsored by Stansberry Research.
+                The Glenelg High School Competitive Programming Club is excited to introduce its up-and-coming hybrid hackathon: <span className="bold-text">Hack the Colosseum</span>, sponsored by Stansberry Research, Brightbots, Netesenz, and WolframAlpha.
               </p>
               <br/>
               <p>
-                The hackathon will be hosted at the Miller Branch Library and online on Devpost.  Prepare for a day filled with workshops, fun activities, and hacking!
+                The hackathon will be hosted at the <span className="bold-text">Miller Branch Library</span> and online on Devpost.  Prepare for a day filled with workshops, fun activities, and hacking!
               </p>
             </div>
 
@@ -177,12 +177,7 @@ const hero = () => {
 
             <div className="col1 animated-div" id="diff-col1">
               <h3 className="text">
-                <div>
-                  <div>
-                    <div> 18</div> <div> th</div>{" "}
-                  </div>{" "}
-                  October
-                </div>
+                  October 18th
                 <Calender className="calender-icon" />
               </h3>
               <p
@@ -197,7 +192,7 @@ const hero = () => {
             </div>
             {/* -------------------------- Column 2 * ---------------------------------- */}
 
-            <div className="col1 animated-div">
+            <div className="col1 animated-div" id="diff-col2">
               <h3 className="text">
                 <div>
                   Information Details
@@ -283,9 +278,7 @@ const hero = () => {
         {/* -------------------------- Page 2 -------------------------- */}
       </div>
       <Agenda />
-      <div className="bg-sep"></div>
       <Schedule />
-      <div className="bg-sep"></div>
       <Sponsors />
       <Footer />
     </React.Fragment>

@@ -292,9 +292,28 @@ background-position:
   opacity: 0;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     font-size: 6vw;
+    width: 0px;
     margin: 0;
     padding: 0vh 2vw;
   }
+
+  @media all and (max-width: 600px) and (max-height: 1024px) and (orientation: portrait) {
+    font-size: 0vw;
+    margin: 0;
+    padding: 0vh 2vw;
+  }
+}
+
+.about-vision-description, .about-mission-description {
+  @media all and (max-width: 600px) and (max-height: 1024px) and (orientation: portrait) {
+    width: 98%;
+    margin-top: 0px;
+  }
+}
+
+.vision {
+  margin-top: 0px;
+  padding-top: 20px;
 }
 
 .vision-title {
@@ -398,6 +417,7 @@ background-position:
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     font-size: 6vw;
     margin: 0;
+    width: 0px;
     padding: 0vh 2vw;
   }
 }

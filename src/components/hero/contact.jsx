@@ -26,7 +26,7 @@ const contact = () => {
   return (
     <React.Fragment>
       <div className= "team-section">
-        
+
           <div className="section-title">
             <img src="images/bearicon.png" alt="arrow-logo" className="bear"/>
             <h1>
@@ -116,7 +116,7 @@ const contact = () => {
                   </div>
                   <div className="name-title">
                     <h3>Annchi Liu</h3>
-                    <h4>Web development</h4>
+                    <h4>Web Development</h4>
                   </div>
               </div>
              </div>
@@ -139,7 +139,7 @@ const contact = () => {
                   </div>
                   <div className="name-title">
                     <h3>Dani Foster</h3>
-                    <h4>Web development</h4>
+                    <h4>Web Development</h4>
                   </div>
               </div>
 

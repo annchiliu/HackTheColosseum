@@ -102,19 +102,19 @@ const Navbar = () => {
 
           <ul>
             <li>
-              <p onClick={() => window.open("/", "_self")}>Home</p>
+              <p onClick={() => window.open("/", "_self")}>HOME</p>
             </li>
             <li>
-              <p onClick={() => handleScroll("#agenda")}>Agenda</p>
+              <p onClick={() => handleScroll("#agenda")}>AGENDA</p>
             </li>
             <li>
-              <p onClick={() => handleScroll("#schedule")}>Schedule</p>
+              <p onClick={() => handleScroll("#schedule")}>SCHEDULE</p>
             </li>
             <li>
               <p onClick={() => handleScroll("#faqs")}>FAQs</p>
             </li>
             <li>
-              <p onClick={() => handleScroll("#contact")}>Contact</p>
+              <p onClick={() => handleScroll("#contact")}>CONTACTS</p>
             </li>
           </ul>
           <div className="last">
@@ -149,19 +149,19 @@ const Navbar = () => {
           <div className="navbar-open navbar-close-mobile">
             <ul>
               <li>
-                <p onClick={() => window.open("/", "_self")}>Home</p>
+                <p onClick={() => window.open("/", "_self")}>HOME</p>
               </li>
               <li>
-                <p onClick={() => handleScroll("#agenda")}>Agenda</p>
+                <p onClick={() => handleScroll("#agenda")}>AGENDA</p>
               </li>
               <li>
-                <p onClick={() => handleScroll("#schedule")}>Schedule</p>
+                <p onClick={() => handleScroll("#schedule")}>SCHEDULE</p>
               </li>
               <li>
                 <p onClick={() => handleScroll("#faqs")}>FAQs</p>
               </li>
               <li>
-                <p onClick={() => handleScroll("#contact")}>Contact</p>
+                <p onClick={() => handleScroll("#contact")}>CONTACT</p>
               </li>
             </ul>
           </div>

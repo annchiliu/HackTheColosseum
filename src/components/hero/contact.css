@@ -9,7 +9,7 @@
 
 .photo-container {
   width: 15vw; /* Set the desired width */
-  height: 30vh; /* Set the desired height */
+  height: 27vh; /* Set the desired height */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -87,7 +87,8 @@
   margin-left: 20px;
 
   @media all and (max-width: 600px) and (max-height: 1024px) {
-    font-size: 10vw;
+    font-size: 9vw;
+    margin-left: 10px;
   }
 }
 
@@ -109,12 +110,13 @@
   );
   border-image-slice: 1;
   width: 35vw;
+}
 
-  @media all and (max-width: 600px) and (max-height: 1024px) {
+@media all and (max-width: 600px) and (max-height: 1024px) {
+  .section-title::after {
     width: 0px;
   }
 }
-
 
 .contact-title {
   font-size: 45px;

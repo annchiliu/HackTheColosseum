@@ -161,9 +161,11 @@ const schedule = () => {
       </div>
       <div className="mainSchedule" id="schedule">
         <div className="parent-schedule-mobile">
-          <div className="schedule-title-mobile">
-            <img src="/images/rrr.webp" alt="arrow-logo" />
-            Schedule
+          <div className="section-title">
+            <img src="images/bearicon.png" alt="arrow-logo" className="bear"/>
+            <h1>
+              SCHEDULE
+            </h1>
           </div>
           <div className="timeline-mobile" id="timeline">
             <div className="container-mobile" id="timeline-container">
