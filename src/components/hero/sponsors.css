@@ -11,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
 
-  background-color: rgba(248, 248, 248, 0.988);
+  background-color: #f4f4f3;
   background-image:
       radial-gradient(circle, rgba(123, 106, 98, 0.266) 1px, transparent 1px),
       radial-gradient(circle, rgba(123, 106, 98, 0.266) 1px, transparent 1px),
@@ -179,7 +179,7 @@
 }
 
 .bronze img {
-  border: rgb(179, 127, 81) 3px solid;
+  border: rgb(192, 142, 98) 3px solid;
 }
 
 .sponsors-name img {

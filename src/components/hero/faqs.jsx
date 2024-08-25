@@ -39,10 +39,13 @@ const faqs = () => {
   return (
     <React.Fragment>
       <div id="faqs" className="parent-faqs">
-        <h1 className="faqs-title">
-          <img src="images/bearicon.png" alt="arrow-logo" />
-          FAQs
-        </h1>
+          
+          <div className="section-title">
+            <img src="images/bearicon.png" alt="arrow-logo" className="bear"/>
+            <h1>
+              FAQs
+            </h1>
+          </div>
 
         <div className="faqs-section">
           <div className="faqs-content" onClick={handleArrow}>

@@ -3,8 +3,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 30px;
   flex-wrap: wrap;
+  gap: 30px;
 }
 
 .photo-container {
@@ -14,7 +14,19 @@
   align-items: center;
   justify-content: center;
   position: relative; /* Necessary for the drop shadow on the container */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.571); /* Drop shadow effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.571);
+
+  @media all and (max-width: 1000px) {
+    width: 25vw;
+  } 
+
+  @media all and (max-width: 650px) {
+    width: 35vw;
+  } 
+
+  @media all and (max-width: 600px) {
+    width: 50vw;
+  } 
 }
 
 .photo-container img {
@@ -22,7 +34,6 @@
   height: 100%;
   object-fit: cover; /* Ensures the image covers the div */
   object-position: center; /* Center the image */
-
   border: 0px solid transparent; /* Start with no visible border */
   outline: 2px solid transparent;
   transition: outline-offset 0.s ease, outline-color 0.3s ease;
@@ -55,6 +66,52 @@
   position: relative;
   @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
     margin: 5vh 1vw;
+  }
+}
+
+.bear {
+  width: 95px;
+  margin-right: 10px;
+  @media all and (max-width: 600px) and (max-height: 1024px) {
+    width: 50px;
+  }
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  font-size: 4vw;
+  font-family: lemon days;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-left: 20px;
+
+  @media all and (max-width: 600px) and (max-height: 1024px) {
+    font-size: 10vw;
+  }
+}
+
+.section-title::after {
+  content: "";
+  z-index: 99;
+  margin-left: 25px;
+  border-bottom: 4px solid #d500ed;
+  border-image: linear-gradient(
+    to right top,
+    #e8cb8c,
+    #f97066,
+    #f0524a,
+    #ff3c6f,
+    #e43a3a,
+    #e91f1f,
+    #4eebde,
+    #0ad0f3
+  );
+  border-image-slice: 1;
+  width: 35vw;
+
+  @media all and (max-width: 600px) and (max-height: 1024px) {
+    width: 0px;
   }
 }
 

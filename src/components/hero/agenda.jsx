@@ -31,13 +31,14 @@ const section2 = () => {
     <React.Fragment>
       <div className="section2">
         <div className="agenda" id="agenda">
-          <div className="title2">
-    
-            <h1 className="title-name">
-              <img src="images/bearicon.png" id="bear-icon" alt="arrow-logo" />
-              Agenda
-              </h1>
+
+          <div className="section-title">
+            <img src="images/bearicon.png" alt="arrow-logo" className="bear"/>
+            <h1>
+              AGENDA
+            </h1>
           </div>
+
           <div className="agenda-text">
             <div className="agenda-lottie-animation">
               <Lottie

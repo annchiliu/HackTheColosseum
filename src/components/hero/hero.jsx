@@ -116,16 +116,16 @@ const hero = () => {
             <div className="curve"></div>
 
             <div className="title1">
-              <span className="hackathon">
-                {"Hack The Colosseum"}
-              </span>
-              <br />
+            <h1 className="hackathon">
+              Hack The 
               <img
+                className="gladiator-bear"
                 src="/images/bear.png"
                 alt="Gladiator bear"
-                width="100px"
-                id="gladiator-bear"
               />
+              Colosseum
+            </h1>
+
             </div>
 
             <div className="description">
@@ -213,7 +213,9 @@ const hero = () => {
               <p className="text3" onClick={() => handleCardClicks("/events")}>
                 Judges <ArrowRightWhite className="arrow-right-icon" />
               </p>
-            </div> 
+            </div>
+            
+             
 
 
             {/* <div className="col2 animated-div">
@@ -230,7 +232,7 @@ const hero = () => {
               </p>
             </div> */}
             {/* -------------------------- Column 3 * ---------------------------------- */}
-            <div className="col3 animated-div">
+            {/* <div className="col3 animated-div">
               <div className="flex justify-items-start">
                 <h3 className="text7">Problem Statements</h3>
               </div>
@@ -240,32 +242,32 @@ const hero = () => {
               <p className="text9" onClick={() => handleCardClicks("/set2")}>
                 Collection 2 <ArrowRightBlack className="arrow-right-icon" />
               </p>
-            </div>
+            </div> */}
             {/* -------------------------- Column 4  ---------------------------------- */}
-            <div
+            {/* <div
               className="col4 animated-div"
               onClick={() =>
-                window.open("https://goo.gl/maps/iaE4Kko8wqqHs4jx9")
+                window.open("https://www.google.com/maps/dir//Miller+Branch+-+Howard+County+Library+System,+9421+Frederick+Rd,+Ellicott+City,+MD+21042/@39.2657552,-77.0940799,11z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c82032ae0d3669:0xcef8a6a3d204468!2m2!1d-76.8393305!2d39.2728353?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D")
               }
-            >
-              <h3 className="text10">
+            > */}
+              {/* <h3 className="text10">
                 Venue <Location className="location-icon" />
-              </h3>
-              <div className="flex flex-col">
-                <p className="text-white pb-[2vh] pt-[2vh] text-[1vw] venue-text-mobile">
+              </h3> */}
+              {/* <div> */}
+                {/* <p className="location">
                   Miller Branch - Howard County Library System
-                </p>
+                </p> */}
                 {/* <p className="text-white  text-[0.8vw] ">
                   National Highway 45, Potheri, SRM Nagar, Kattankulathur, Tamil
                   Nadu - 603203
                 </p> */}
-                <div className="round"></div>
-              </div>
-            </div>
+                {/* <div className="round"></div>
+              </div> */}
+            {/* </div> */}
             {/* -------------------------- Column 5  ---------------------------------- */}
-            <div className="col5"></div>
+            {/* <div className="col5"></div> */}
             {/* -------------------------- Column 6  ---------------------------------- */}
-            <div className="col6 animated-div">
+            {/* <div className="col6 animated-div">
               <h3 className="text13">
                 Organized By
                 <div className="flex justify-center items-center gap-1"></div>
@@ -275,7 +277,7 @@ const hero = () => {
                 <p className="text15">Competitive Programming Club</p>
                 <div className="round2"></div>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
         {/* -------------------------- Page 2 -------------------------- */}

@@ -26,17 +26,16 @@ const contact = () => {
   return (
     <React.Fragment>
       <div className= "team-section">
-          <div id="faqs" className="parent-faqs">
-            <h1 className="faqs-title">
-              <img src="images/bearicon.png" alt="arrow-logo" />
+        
+          <div className="section-title">
+            <img src="images/bearicon.png" alt="arrow-logo" className="bear"/>
+            <h1>
               MEET THE TEAM 
             </h1>
           </div>
 
             <div className="team-container">
-
               <div className="row1">
-
                   <div className= "member-container">
                     <div className="photo-container">
                       <img src="/images/neurips_headshot.jpg" className="member-img" alt="team member photo"/>

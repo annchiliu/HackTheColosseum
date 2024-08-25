@@ -48,7 +48,7 @@
   position: absolute;
   border-left: 4px solid rgb(65, 36, 23);
   height: 0vh;
-  top: 6vh;
+  top: 5vh;
   left: 1.7vw;
 }
 @keyframes socialsAnim {
@@ -67,35 +67,29 @@
   position: absolute;
   z-index: 99;
   color: black;
-  top: 2vh;
+  top: 10px;
   left: .3vw;
   opacity: 0;
   animation: instagram 0.5s 0.3s linear forwards;
 }
+
 /* .parent .title .socials .discord-icon {
   position: absolute;
   z-index: 99;
   color: black;
-  top: 2vh;
+  top: 1vh;
   left: 0.8vw;
   transform: translateY(9.5vh);
   opacity: 0;
   animation: facebook 0.3s 0.8s linear forwards;
 } */
-.parent .title .socials .discord-icon {
-  position: absolute;
-  color: black;
-  z-index: 99;
-  top: -3vh;
-  transform: translateY(15.5vh);
-  opacity: 0;
-  animation: youtube 0.3s 1.3s linear forwards;
-}
+
 .parent .title .socials .discord-icon {
   position: absolute;
   color: black;
   z-index: 99;
   left: .3vw;
+  bottom: 7vh;
   opacity: 0;
   transform: translateY(15.5vh);
   animation: youtube 0.3s 1.8s linear forwards;

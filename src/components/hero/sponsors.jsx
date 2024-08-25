@@ -9,10 +9,12 @@ const sponsors = () => {
   return (
     <React.Fragment>
       <div className="parent-sponsors">
-        <h1 className="sponsors-title">
-          Sponsors
-          <img src="/images/bearicon.png" alt="arrow-logo" />
-        </h1>
+          <div className="section-title">
+            <img src="images/bearicon.png" alt="arrow-logo" className="bear"/>
+            <h1>
+              SPONSORS
+            </h1>
+          </div>
 
         <div className="sponsors-container">
           <h2>Our Silver Sponsors</h2>

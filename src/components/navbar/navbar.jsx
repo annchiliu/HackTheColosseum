@@ -15,15 +15,14 @@ const Navbar = () => {
       action: "click",
       label: "Instagram",
     });
-    window.open("https://www.instagram.com/srmveccsisb");
-    window.open("https://www.instagram.com/whitehatians");
+    window.open("https://www.instagram.com/ghs_computing/");
   };
   
   const handleDiscord = () => {
     ReactGA.event({
       category: "Social Icon",
       action: "click",
-      label: "Youtube",
+      label: "Discord",
     });
     window.open("https://discord.gg/w77zzjVkEB?event=1141717757382107197");
   };

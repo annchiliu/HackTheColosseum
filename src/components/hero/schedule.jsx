@@ -27,9 +27,11 @@ const schedule = () => {
     <React.Fragment>
       <div className="mainSchedule" id="schedule">
         <div className="parent-schedule">
-          <div className="schedule-title">
-            <img src="images/bearicon.png" alt="arrow-logo" />
-            Schedule
+          <div className="section-title">
+            <img src="images/bearicon.png" alt="arrow-logo" className="bear"/>
+            <h1>
+              SCHEDULE
+            </h1>
           </div>
           <div className="timeline" id="timeline">
             <div className="container" id="timeline-container">
