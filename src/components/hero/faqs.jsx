@@ -48,7 +48,7 @@ const faqs = () => {
           </div>
 
         <div className="faqs-section">
-          <div className="faqs-content" onClick={handleArrow}>
+          {/* <div className="faqs-content" onClick={handleArrow}>
             <h1 className="faqs-content-title">
               What is a hackathon?
               <ChevronRightIcon
@@ -63,7 +63,7 @@ const faqs = () => {
               to win prizes. The solution is related to a theme
               and in this case, the theme is finance. 
             </p>
-          </div>
+          </div> */}
 
           <div className="faqs-content" onClick={handleArrow}>
             <h1 className="faqs-content-title">
@@ -164,24 +164,24 @@ const faqs = () => {
 
               <table>
               <tr>
-                <th>Gaming Keyboard (x3) [in-person, 1st]</th>
-                <th>$78</th>
+                <th>Gaming Keyboards </th>
+              
               </tr>
               <tr>
                 <th>Raspberry Pi (x3) [in-person, 2rd]</th>
-                <th>$105</th>
+            
               </tr>
               <tr>
                 <th>Wireless Earbuds (x3) [in-person, 3rd]</th>
-                <th>$48</th>
+             
               </tr>
               <tr>
                 <th>$25 Apple Gift Card (x3) [virtual]</th>
-                <th>$75</th>
+               
               </tr>
               <tr>
                 <th>$5 Apple Gift Card (x3) [activities award]</th>
-                <th>$15</th>
+               
               </tr>
               </table>
             </p>

@@ -27,17 +27,14 @@ const sponsors = () => {
               </div>
 
               <div className="sponsors-name">
-                <a href="https://brightbots.org/"
+                <a href="https://brightbotsint.org/"
                 target="_blank">
                 <img className="" src="/images/Brightbot.png"></img>
                 </a>
               </div>
 
               <div className="sponsors-name">
-                <a href="https://brightbots.org/"
-                target="_blank">
                 <img className="" src="/images/Net.png"></img>
-                </a>
               </div>
           </div>
 
