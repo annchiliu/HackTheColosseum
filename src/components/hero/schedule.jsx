@@ -35,62 +35,57 @@ const schedule = () => {
           </div>
           <div className="timeline" id="timeline">
             <div className="container" id="timeline-container">
+              <h2 className="container-title">Registration opens</h2>
               <h2 className="date">
                 <div>
-                  Aug
+                  September
                   <div>
-                    <div> 17</div> <div>th</div>
+                    <div> 2</div> <div>nd</div>
                   </div>
                 </div>
               </h2>
-              <h2 className="container-title">Registration opens</h2>
               <p className="container-description">
-                Registration is open for tech enthusiasts, developers, and
-                problem solvers from all backgrounds. Join us for an
-                exhilarating 24 hours of coding, collaboration, and competition
-                as we tackle real-world challenges and develop cutting-edge
+                Registration is open for all tech enthusiasts, developers, and
+                problem solvers! Join us for an
+                exhilarating day of coding, collaboration, and competition
+                as we tackle challenges and learn to develop cutting-edge
                 solutions
               </p>
               <span className="circle"></span>
             </div>
             <div className="container ">
-              <h2 className="container-title">Abstract Submission</h2>
+              <h2 className="container-title">Registration Closes</h2>
               <h1 className="date">
                 <div>
-                  Aug
+                  October
                   <div>
-                    <div>17</div> <div>th</div>
-                  </div>
-                  -Aug
-                  <div>
-                    <div>28</div> <div>th</div>
+                    <div>10</div> <div>th</div>
                   </div>
                 </div>
               </h1>
               <p className="container-description">
-                Submit your abstracts and be a part of the forefront of
-                innovation! We invite you to share your groundbreaking ideas and
-                research at our esteemed hackathon event. This is your
-                opportunity to present your unique insights and solutions 🚀👩‍💻
+                Last call for registration! Time is running out to be a part of
+                our hackathon event. Don't miss this incredible
+                opportunity to join a community of tech enthusiasts, developers,
+                and innovators from around the DMV!
               </p>
               <span className="circle"></span>
             </div>
             <div className="container ">
+              <h2 className="container-title">Opening Ceremony</h2>
               <h1 className="date">
                 <div>
-                  Aug
+                  October
                   <div>
-                    <div>28</div> <div>th</div>
+                    <div>18</div> <div>th</div>
                   </div>
                 </div>
+                <div>
+                  8:15 AM - 8:45 AM
+                </div>
               </h1>
-              <h2 className="container-title">Registration Closes</h2>
               <p className="container-description">
-                Last call for registration! Time is running out to be a part of
-                our extraordinary hackathon event. Don't miss this incredible
-                opportunity to join a community of tech enthusiasts, developers,
-                and innovators from around the world. Registration will close
-                soon, so act fast and secure your spot
+                [placeholder...]
               </p>
 
               <span className="circle"></span>

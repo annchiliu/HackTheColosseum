@@ -33,7 +33,7 @@ const Navbar = () => {
       action: "click",
       label: "register",
     });
-    window.open("https://forms.gle/mqHSf1kpoTUiMURH6");
+    window.open("https://forms.gle/SWVN4Q6aEMZQcuWT6");
   };
 
   const handleScroll = (id) => {
