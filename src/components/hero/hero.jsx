@@ -20,7 +20,7 @@ const hero = () => {
       action: "click",
       label: "register",
     });
-    window.open("https://forms.gle/mqHSf1kpoTUiMURH6"); // Change form here
+    window.open("https://forms.gle/SWVN4Q6aEMZQcuWT6"); // Change form here
   };
   const handleCardClicks = (card) => {
     ReactGA.event({
@@ -130,11 +130,11 @@ const hero = () => {
 
             <div className="description">
               <p>
-                The Glenelg High School Competitive Programming Club is excited to introduce its up-and-coming hybrid hackathon: <span className="bold-text">Hack the Colosseum</span>, sponsored by Stansberry Research, Brightbots, Netesenz, and WolframAlpha.
+                The Glenelg High School Competitive Programming Club is excited to introduce its up-and-coming hybrid hackathon: Hack the Colosseum, sponsored by Stansberry Research, Brightbots Initiative, Netesenz, and WolframAlpha.
               </p>
               <br/>
               <p>
-                The hackathon will be hosted at the <span className="bold-text">Miller Branch Library</span> and online on Devpost.  Prepare for a day filled with workshops, fun activities, and hacking!
+                The hackathon will be hosted both in-person at the Miller Branch Library and online on Devpost on October 18th.  Prepare for a day filled with workshops, fun activities, and hacking!
               </p>
             </div>
 
@@ -175,43 +175,122 @@ const hero = () => {
           <div className="right_side">
             {/* -------------------------- Column 1 * ---------------------------------- */}
 
-            <div className="col1 animated-div" id="diff-col1">
-              <h3 className="text">
-                  October 18th
-                <Calender className="calender-icon" />
-              </h3>
-              <p
-                className="text2"
-                onClick={() => handleCardClicks("/guidelines")}
-              >
-                Guidelines <ArrowRightWhite className="arrow-right-icon" />
-              </p>
-              <p className="text3" onClick={() => handleCardClicks("/events")}>
-                Events <ArrowRightWhite className="arrow-right-icon" />
-              </p>
-            </div>
-            {/* -------------------------- Column 2 * ---------------------------------- */}
+            <div className="intro-boxes">
+              <div className="col1 animated-div" id="diff-col1">
+                <h3 className="text">
+                    October 18th
+                  <Calender className="calender-icon" />
+                </h3>
+                <p
+                  className="text2"
+                  onClick={() => handleCardClicks("/guidelines")}
+                >
+                  Guidelines <ArrowRightWhite className="arrow-right-icon" />
+                </p>
+                <p className="text3" onClick={() => handleCardClicks("/events")}>
+                  Events <ArrowRightWhite className="arrow-right-icon" />
+                </p>
+              </div>
+              {/* -------------------------- Column 2 * ---------------------------------- */}
 
-            <div className="col1 animated-div" id="diff-col2">
-              <h3 className="text">
-                <div>
-                  Information Details
-                </div>
-                <Calender className="calender-icon" />
-              </h3>
-              <p
-                className="text2"
-                onClick={() => handleCardClicks("/guidelines")}
-              >
-                About <ArrowRightWhite className="arrow-right-icon" />
-              </p>
-              <p className="text3" onClick={() => handleCardClicks("/events")}>
-                Judges <ArrowRightWhite className="arrow-right-icon" />
-              </p>
+              <div className="col1 animated-div" id="diff-col2">
+                <h3 className="text">
+                  <div>
+                    Information Details
+                  </div>
+                  <Calender className="calender-icon" />
+                </h3>
+                <p
+                  className="text2"
+                  onClick={() => handleCardClicks("/guidelines")}
+                >
+                  About <ArrowRightWhite className="arrow-right-icon" />
+                </p>
+                <p className="text3" onClick={() => handleCardClicks("/events")}>
+                  Judges <ArrowRightWhite className="arrow-right-icon" />
+                </p>
+              </div>
             </div>
+    
+              <div className="blank-holder">
+              </div>
+
+              <div className="animated-div col9">
+                <h3 className="text">
+                  Prizes
+                </h3>
+                
+                <div className="prize-container">
+                  <h4 className="prize-title">
+                    In-Person 1st Place
+                  </h4>
+
+                  <ol>
+                    <li>
+                      Gaming Keyboard
+                    </li>
+                    <li>
+                      1-year access to Wolfram | One Professional Edition
+                    </li>
+                  </ol>
+
+                  {/* ------------------------------ */}
+                  
+                  <h4 className="prize-title">
+                    In-Person 2nd Place
+                  </h4>
+                  <ol>
+                    <li>
+                      Wireless Earbuds
+                    </li>
+                    <li>
+                      1-year access to Wolfram | One Professional Edition
+                    </li>
+                  </ol>
+
+                  {/* ------------------------------ */}
+                
+                  <h4 className="prize-title">
+                    In-Person Third Place
+                  </h4>
+                  <ol>
+                    <li>
+                      Raspberry Pi 4
+                    </li>
+                    <li>
+                      1-year access to Wolfram | One Professional Edition
+                    </li>
+                  </ol>
+
+                  {/* ------------------------------ */}
+
+                  <h4 className="prize-title">
+                    In-Person Activity (3x)
+                  </h4>
+                  <p>
+                    The winner of each of activity will win a $5 Amazon gift card
+                  </p><br/>
+
+                  {/* ------------------------------ */}
+              
             
-             
 
+                  <h4 className="prize-title">
+                      Online Best Overall
+                    </h4>
+                    <ol>
+                      <li>
+                        $25 Apple Gift Card
+                      </li>
+                      <li>
+                        1-year access to Wolfram|One Professional Edition
+                      </li>
+                    </ol>
+                    {/* ------------------------------ */}
+                </div>
+
+             
+            </div>
 
             {/* <div className="col2 animated-div">
               <h3 className="text4">

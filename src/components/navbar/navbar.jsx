@@ -24,7 +24,7 @@ const Navbar = () => {
       action: "click",
       label: "Discord",
     });
-    window.open("https://discord.gg/w77zzjVkEB?event=1141717757382107197");
+    window.open("https://discord.gg/v2MV82AHgD");
   };
 
   const handleRegisterClick = () => {

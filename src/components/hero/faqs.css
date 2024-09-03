@@ -71,9 +71,9 @@
 }
 
 .faqs-content {
-  border: 2px solid #844b1c;
+  border: 2px solid #ac9d91;
   padding: 2vh 1vw;
-  background: linear-gradient(135deg, #ca854d, #b9743c);
+  background: linear-gradient(135deg, #efece6, #efece6);
   border-radius: 0.5vw;
   color: rgb(42, 24, 15);
   display: flex;
