@@ -1,7 +1,11 @@
 @font-face {
   font-family: Heavitas;
-  src: url(./fonts/Heavitas.ttf)
+  src: url('/fonts/Heavitas.woff2') format('woff2'),
+       url('/fonts/Heavitas.woff') format('woff'),
+       url('/fonts/Heavitas.ttf') format('truetype'),
+       url('/fonts/Heavitas.otf') format('opentype');      
 }
+
 
 .parent-sponsors {
   padding: 7vh 3vw;

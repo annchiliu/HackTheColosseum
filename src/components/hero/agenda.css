@@ -1,8 +1,10 @@
 @font-face {
   font-family: lemon days;
-  src: url(./fonts/LemonDays.ttf)
+  src: url('/fonts/LemonDays.woff2') format('woff2'),
+       url('/fonts/LemonDays.woff') format('woff'),
+       url('/fonts/LemonDays.ttf') format('truetype'),
+       url('/fonts/LemonDays.otf') format('opentype');      
 }
-
 
 .section2 {
   position: relative;

@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
 
 @font-face {
-    font-family: bernie;
-    src: url('/fonts/Bernie.otf') format('opentype');
-}
-
-@font-face {
   font-family: bernie;
   src: url('/fonts/Bernie.woff2') format('woff2'),
        url('/fonts/Bernie.woff') format('woff'),
@@ -13,23 +8,20 @@
        url('/fonts/Bernie.otf') format('opentype');      
 }
 
-/* @font-face {
-  font-family: bernie;
-  src: url('/fonts/Bernie.woff2') format('woff2'),
-       url('/fonts/SevenSegment.woff') format('woff'),
-       url('/fonts/SevenSegment.ttf') format('truetype');
-} */
-
 @font-face {
   font-family: SevenSegment;
-  src: url('/fonts/SevenSegment.ttf') format('truetype');
+  src: url('/fonts/SevenSegment.woff2') format('woff2'),
+       url('/fonts/SevenSegment.woff') format('woff'),
+       url('/fonts/SevenSegment.ttf') format('truetype'),
+       url('/fonts/SevenSegment.otf') format('opentype');      
 }
 
 @font-face {
   font-family: roboto;
   src: url('/fonts/Roboto-Medium.woff2') format('woff2'),
        url('/fonts/Roboto-Medium.woff') format('woff'),
-       url('/fonts/Roboto-Medium.ttf') format('truetype');
+       url('/fonts/Roboto-Medium.ttf') format('truetype'),
+       url('/fonts/Roboto-Medium.otf') format('opentype');
 }
 
 .parent_hero {
