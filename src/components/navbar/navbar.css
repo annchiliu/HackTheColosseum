@@ -1,7 +1,11 @@
 @font-face {
   font-family: joystix;
-  src: url(./fonts/joystix.otf)
+  src: url('/fonts/joystix.woff2') format('woff2'),
+       url('/fonts/joystix.woff') format('woff'),
+       url('/fonts/joystix.ttf') format('truetype'),
+       url('/fonts/joystix.otf') format('opentype');      
 }
+
 
 .parent {
   font-family: "oswald";
