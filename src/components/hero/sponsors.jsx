@@ -17,7 +17,7 @@ const sponsors = () => {
           </div>
 
         <div className="sponsors-container">
-          <h2>Our Gold Sponsors</h2>
+          <h2>Our Platinum Sponsors</h2>
           <div className="sponsors-container-sub gold" id="gold-container">
               <div className="sponsors-name">
                 <a href="https://www.constellationenergy.com/"
