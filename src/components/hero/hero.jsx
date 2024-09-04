@@ -199,7 +199,7 @@ const hero = () => {
                 </p>
                 <p className="text3" > 
                   {/* onClick={() => handleCardClicks("/events")} */}
-                  Guideline <ArrowRightWhite className="arrow-right-icon" />
+                  Guidelines <ArrowRightWhite className="arrow-right-icon" />
                 </p>
               </div>
               {/* -------------------------- Column 2 * ---------------------------------- */}
@@ -213,7 +213,7 @@ const hero = () => {
                 </h3>
                 <p
                   className="text2"
-                  onClick={() => handleCardClicks("/guidelines")}
+                  // onClick={() => handleCardClicks("/guidelines")}
                 >
                   Judges <ArrowRightWhite className="arrow-right-icon" />
                 </p>
