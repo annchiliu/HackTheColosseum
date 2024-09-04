@@ -65,6 +65,10 @@
   @media all and (max-width: 600px) and (max-height: 1024px) {
     width: 40px;
   }
+
+  @media all and (max-width: 1510px) {
+      width: 55px;
+  }
   
 }
 
@@ -162,6 +166,9 @@
     font-weight: 600;
     gap: 1vw;
   }
+  @media all and (max-width: 500px) {
+    font-size: 5.2vw;
+  }
 }
 
 .tag > div {
@@ -207,6 +214,10 @@
   }
   @media all and (max-width: 1510px) {
     font-size: 4.2vw;
+  }
+  @media all and (max-width: 500px) {
+    font-size: 10vw;
+    margin-bottom: 20px;
   }
 
   /* @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
@@ -272,6 +283,7 @@
   @media all and (max-width: 600px) {
     height: 19vh;
   } 
+
 }
 
 .parent_hero .title1 .hackathon::after {
@@ -330,6 +342,12 @@
   }
 }
 
+@media all and (max-width: 500px) {
+  .parent_hero .description {
+    width: 95%;
+  }
+}
+
 .parent_hero .description p {
   font-size: 1.3vw;
   font-weight: 399;
@@ -343,6 +361,10 @@
     font-size: 2.8vw;
     font-weight: 400;
   }
+  @media all and (max-width: 500px) {
+    font-size: 1.2rem;
+  }
+
 }
 
 .bold-text {
@@ -558,8 +580,8 @@
 }
 
 .right_side {
-  margin-right: .1vw;
-  margin-left: 5vw;
+  margin-right: 1vw;
+  margin-left: 4vw;
 }
 
 .right_side .col9 {
@@ -572,24 +594,31 @@
   background-image: linear-gradient(147deg, #1f1e1d 0%, #100800 74%);
   isolation: isolate;
   transition: all 0.1s linear;
-  width: fit-content;
 }
 
 ol {
   list-style-type: decimal; /* Ensures numbers are shown */
   margin: 10px;
   margin-left: 30px;
+  font-size: 1em;
 }
 
 .intro-boxes {
   display: flex;
   position: relative;
-  top: 85px;
+  top: 70px;
   flex-direction: row;
   padding: 0px;
   margin: 0px;
-  height: 380px;
+  height: 350px;
+  @media all and (max-width: 500px) {
+    flex-direction: column;
+    gap: 10px;
+    height: 680px;
+  }
 }
+
+
 
 .blank-holder {
   height: 0px;
@@ -598,11 +627,14 @@ ol {
 }
 
 .right_side .col9 {
-  width: 86vh;
-  margin-top: 0px;
   padding: 1vw;
   color: white;
   font-size: 18px;
+  width: 97%;
+  @media all and (max-width: 500px) {
+    width: 100%;
+    padding: 3vw;
+  }
 }
 
 .prize-title {

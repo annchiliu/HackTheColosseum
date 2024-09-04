@@ -60,12 +60,12 @@ const section2 = () => {
               />
             </div>
             <div className="agenda-des">
-              A hackathon is an event where individuals or teams come together
+              A hackathon is an event where individuals come together
               to collaboratively work on solving specific problems or challenges
               within a limited timeframe, usually ranging from a few hours to a
-              couple of days. It is a great platform for programmers, designers,
+              couple of days. It is a great opportunity for programmers, designers,
               entrepreneurs, and other creative minds to showcase their skills,
-              creativity, and problem-solving abilities.
+              creativity, and problem-solving abilities!
             </div>
           </div>
         </div>
@@ -81,13 +81,9 @@ const section2 = () => {
               Vision
             </div>
             <div className="about-vision-description" id="agenda-right">
-              Empowering Innovators to Transform Tomorrow. Our hackathon
-              envisions a world where creative minds converge to tackle pressing
-              challenges, forging solutions that redefine possibilities. Through
-              dynamic collaboration, cutting-edge technology, and unwavering
-              determination, we ignite a spark that sparks real change. Join us
-              to hack a brighter future and leave an indelible mark on the
-              landscape of innovation.
+              "Hack the Colosseum" envisions a vibrant and collaborative community of student programmers. 
+              By bringing students from diverse backgrounds and experiences together, we aim to cultivate an innovative and supportive learning environment that inspires creativity and encourages growth.
+              Through hands-on workshops, mentoring, and team challenges, we strive to inspire the next generation of tech leaders and innovators here in the DMV.
             </div>
           </div>
           <div className="mission">
@@ -95,13 +91,9 @@ const section2 = () => {
               Mission
             </div>
             <div className="about-mission-description" id="agenda-left">
-              Fueling innovation, our hackathon is a nexus of minds reimagining
-              solutions for a dynamic world. Through tech-driven teamwork, we
-              catalyze change, pushing boundaries and shaping the future. Join
-              us to ideate, collaborate, and leave an indelible mark on the
-              tapestry of progress.we ignite a spark that sparks real change.
-              Join us to hack a brighter future and leave an indelible mark on
-              the landscape of innovation
+              Our hackathon aims to foster a positive and inclusive learning environment for students of all backgrounds and programming experience levels.
+              Through various skill-building activities and workshops, participants will gain valuable coding knowledge and boost their confidence to build more projects and to explore computer science further.
+              Advanced programmers will also face engaging challenges to further hone their skills and push the boundaries of their expertise.
             </div>
           </div>
         </div>

@@ -36,6 +36,16 @@ const hero = () => {
     minutes: 0,
     seconds: 0,
   });
+
+  const handleScheduleClick = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "click",
+      label: "schedule",
+    });
+    window.open("https://docs.google.com/document/d/1LiOKqJa3wTf3KeAhxt9qy7TloAWRwsEsIQ8xSawMXw8/edit?usp=sharing");
+  };
+
   const handleCountdown = () => {
     const countDate = new Date("October 18, 2024 10:00:00").getTime(); //9/21/2024
     const now = new Date().getTime();
@@ -183,12 +193,13 @@ const hero = () => {
                 </h3>
                 <p
                   className="text2"
-                  onClick={() => handleCardClicks("/guidelines")}
+                  onClick={() => handleScheduleClick()}
                 >
-                  Guidelines <ArrowRightWhite className="arrow-right-icon" />
+                  Schedule <ArrowRightWhite className="arrow-right-icon" />
                 </p>
-                <p className="text3" onClick={() => handleCardClicks("/events")}>
-                  Events <ArrowRightWhite className="arrow-right-icon" />
+                <p className="text3" > 
+                  {/* onClick={() => handleCardClicks("/events")} */}
+                  Guideline <ArrowRightWhite className="arrow-right-icon" />
                 </p>
               </div>
               {/* -------------------------- Column 2 * ---------------------------------- */}
@@ -204,10 +215,12 @@ const hero = () => {
                   className="text2"
                   onClick={() => handleCardClicks("/guidelines")}
                 >
-                  About <ArrowRightWhite className="arrow-right-icon" />
-                </p>
-                <p className="text3" onClick={() => handleCardClicks("/events")}>
                   Judges <ArrowRightWhite className="arrow-right-icon" />
+                </p>
+                <p className="text3">
+                  Problem Statements
+                  {/* onClick={() => handleCardClicks("/events")} */}
+                  <ArrowRightWhite className="arrow-right-icon" />
                 </p>
               </div>
             </div>
@@ -217,7 +230,7 @@ const hero = () => {
 
               <div className="animated-div col9">
                 <h3 className="text">
-                  Prizes
+                  Prizes 
                 </h3>
                 
                 <div className="prize-container">
@@ -283,7 +296,7 @@ const hero = () => {
                         $25 Apple Gift Card
                       </li>
                       <li>
-                        1-year access to Wolfram|One Professional Edition
+                        1-year access to Wolfram | One Professional Edition
                       </li>
                     </ol>
                     {/* ------------------------------ */}

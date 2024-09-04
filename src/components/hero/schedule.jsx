@@ -25,7 +25,7 @@ const schedule = () => {
   });
   return (
     <React.Fragment>
-      <div className="mainSchedule" id="schedule">
+      {/* <div className="mainSchedule" id="schedule">
         <div className="parent-schedule">
           <div className="section-title">
             <img src="images/bearicon.png" alt="arrow-logo" className="bear"/>
@@ -40,7 +40,7 @@ const schedule = () => {
                 <div>
                   September
                   <div>
-                    <div> 2</div> <div>nd</div>
+                    <div> 5</div> <div>nd</div>
                   </div>
                 </div>
               </h2>
@@ -59,7 +59,7 @@ const schedule = () => {
                 <div>
                   October
                   <div>
-                    <div>10</div> <div>th</div>
+                    <div>12</div> <div>th</div>
                   </div>
                 </div>
               </h1>
@@ -71,6 +71,7 @@ const schedule = () => {
               </p>
               <span className="circle"></span>
             </div>
+
             <div className="container ">
               <h2 className="container-title">Opening Ceremony</h2>
               <h1 className="date">
@@ -80,77 +81,84 @@ const schedule = () => {
                     <div>18</div> <div>th</div>
                   </div>
                 </div>
-                <div>
-                  8:15 AM - 8:45 AM
+                <div className="event-time">
+                  <p>
+                    8:15 AM - 8:45 AM
+                  </p>
                 </div>
               </h1>
               <p className="container-description">
-                [placeholder...]
-              </p>
-
-              <span className="circle"></span>
-            </div>
-            <div className="container ">
-              <h2 className="container-title">Finalists Announcements</h2>
-              <h1 className="date">
-                <div>
-                  Sep
-                  <div>
-                    <div>1</div> <div>st</div>
-                  </div>
-                </div>
-              </h1>
-              <p className="container-description">
-                Step into the limelight – the moment we've all been waiting for
-                is here! We're thrilled to announce the finalists of our highly
-                competitive hackathon event. After meticulous evaluation and
-                deliberation, we've handpicked the most promising and innovative
-                teams to move forward to the final round
+                Opening Ceremony! Join us for a team building session and light breakfast afterwards!
               </p>
               <span className="circle"></span>
             </div>
 
             <div className="container ">
-              <h2 className="container-title">Hackathon Finale</h2> <br />
+              <h2 className="container-title">Workshop #1</h2>
               <h1 className="date">
                 <div>
-                  sep
+                  October
                   <div>
-                    <div>8</div> <div>th</div>
+                    <div>18</div> <div>th</div>
                   </div>
-                  - sep
-                  <div>
-                    <div>9</div> <div>th</div>
-                  </div>
+                </div>
+                <div className="event-time">
+                  <p>
+                   9:15 AM - 9:45 AM
+                  </p>
                 </div>
               </h1>
               <p className="container-description">
-                Get ready for the moment of triumph – the Hackathon Finale is
-                just around the corner! After an intense and exhilarating
-                journey, we've arrived at the grand finale, where the most
-                ingenious minds will showcase their remarkable solutions.
+                Attend the "Intro to Python" workshop to learn fundamental python concepts and to create functionable code!
               </p>
               <span className="circle"></span>
             </div>
+
             <div className="container ">
-              <h2 className="container-title">Award Ceremony</h2>
+              <h2 className="container-title">Workshop #2</h2>
               <h1 className="date">
                 <div>
-                  sep
+                  October
                   <div>
-                    <div>9</div> <div>th</div>
+                    <div>18</div> <div>th</div>
                   </div>
+                </div>
+                <div className="event-time">
+                  <p>
+                    10:00 AM - 10:30 AM
+                  </p>
                 </div>
               </h1>
               <p className="container-description">
-                The judges deliberate, and winners are announced in various
-                categories, celebrating outstanding projects, creativity, and
-                teamwork. The successful conclusion of the hackathon is
-                commemorated with an awards ceremony and well-deserved
-                celebrations.
+                Attend the "Intro to Scratch" workshop to explore simple coding with the popular Stratch language!
               </p>
               <span className="circle"></span>
             </div>
+
+            <div className="container ">
+              <h2 className="container-title">Workshop #1</h2>
+              <h1 className="date">
+                <div>
+                  October
+                  <div>
+                    <div>18</div> <div>th</div>
+                  </div>
+                </div>
+                <div className="event-time">
+                  <p>
+                   9:15 AM - 9:45 AM
+                  </p>
+                </div>
+              </h1>
+              <p className="container-description">
+                Attend the "Intro to Python" workshop to learn fundamental python concepts and to create functionable code!
+              </p>
+              <span className="circle"></span>
+            </div>
+
+
+
+
           </div>
         </div>
       </div>
@@ -287,7 +295,7 @@ const schedule = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </React.Fragment>
   );
 };

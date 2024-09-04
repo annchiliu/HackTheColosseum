@@ -100,7 +100,7 @@ const faqs = () => {
 
           <div className="faqs-content" onClick={handleArrow}>
             <h1 className="faqs-content-title">
-              Is there a registration fee
+              Is there a registration fee?
               <ChevronRightIcon
                 style={styles.container}
                 className="faqs-arrow"
@@ -150,7 +150,7 @@ const faqs = () => {
               various juices and soft drinks. 
             </p>
           </div>
-          <div className="faqs-content" onClick={handleArrow}>
+          {/* <div className="faqs-content" onClick={handleArrow}>
             <h1 className="faqs-content-title">
               What prizes do the winning teams receive?
               <ChevronRightIcon
@@ -185,7 +185,7 @@ const faqs = () => {
               </tr>
               </table>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </React.Fragment>
