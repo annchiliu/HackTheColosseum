@@ -2,17 +2,34 @@
 
 @font-face {
     font-family: bernie;
-    src: url(./fonts/Bernie.otf)
+    src: url('/fonts/Bernie.otf') format('opentype');
 }
 
 @font-face {
-  font-family: seven segment;
-  src: url(./fonts/SevenSegment.ttf);
+  font-family: bernie;
+  src: url('/fonts/Bernie.woff2') format('woff2'),
+       url('/fonts/Bernie.woff') format('woff'),
+       url('/fonts/Bernie.ttf') format('truetype'),
+       url('/fonts/Bernie.otf') format('opentype');      
+}
+
+/* @font-face {
+  font-family: bernie;
+  src: url('/fonts/Bernie.woff2') format('woff2'),
+       url('/fonts/SevenSegment.woff') format('woff'),
+       url('/fonts/SevenSegment.ttf') format('truetype');
+} */
+
+@font-face {
+  font-family: SevenSegment;
+  src: url('/fonts/SevenSegment.ttf') format('truetype');
 }
 
 @font-face {
   font-family: roboto;
-  src: url(./fonts/Roboto-Medium.ttf);
+  src: url('/fonts/Roboto-Medium.woff2') format('woff2'),
+       url('/fonts/Roboto-Medium.woff') format('woff'),
+       url('/fonts/Roboto-Medium.ttf') format('truetype');
 }
 
 .parent_hero {
