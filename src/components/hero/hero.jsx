@@ -140,7 +140,7 @@ const hero = () => {
 
             <div className="description">
               <p>
-                The Glenelg High School Competitive Programming Club is excited to introduce its up-and-coming hybrid hackathon: Hack the Colosseum, sponsored by Stansberry Research, Brightbots Initiative, Netesenz, and WolframAlpha.
+                The Glenelg High School Competitive Programming Club is excited to introduce its up-and-coming hybrid hackathon: Hack the Colosseum, sponsored by Constellation, Stansberry Research, Brightbots Initiative, Netesenz, and WolframAlpha.
               </p>
               <br/>
               <p>
