@@ -43,7 +43,10 @@ const sponsors = () => {
               </div>
 
               <div className="sponsors-name">
+                <a href="https://www.netesenz.com/"
+                target="_blank">
                 <img className="" src="/images/Net.png"></img>
+                </a>
               </div>
           </div>
 
