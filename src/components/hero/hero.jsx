@@ -22,6 +22,25 @@ const hero = () => {
     });
     window.open("https://forms.gle/SWVN4Q6aEMZQcuWT6"); // Change form here
   };
+  
+  const handleDevPostClick = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "click",
+      label: "register",
+    });
+    window.open("https://hack-the-colosseum.devpost.com/?ref_content=online-hackathons&ref_feature=challenge&ref_medium=artificial-intelligence-channel");
+  };
+
+  const handleRulesClick = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "click",
+      label: "register",
+    });
+    window.open("https://hack-the-colosseum.devpost.com/rules");
+  };
+
   const handleCardClicks = (card) => {
     ReactGA.event({
       category: "Button",
@@ -140,11 +159,11 @@ const hero = () => {
 
             <div className="description">
               <p>
-                The Glenelg High School Competitive Programming Club is excited to introduce its up-and-coming hybrid hackathon: Hack the Colosseum, sponsored by Constellation, Stansberry Research, Brightbots Initiative, Netesenz, and WolframAlpha.
+                The Glenelg Competitive Programming Club is excited to introduce its up-and-coming hybrid hackathon: Hack the Colosseum, sponsored by Constellation, Stansberry Research, Brightbots Initiative, Netesenz, and WolframAlpha.
               </p>
               <br/>
               <p>
-                The hackathon will be hosted both in-person at the Miller Branch Library and online on Devpost on October 18th.  Prepare for a day filled with workshops, fun activities, and hacking!
+                The hackathon will be hosted both in-person at the Miller Branch Library and online on Devpost on October 18th.  Prepare for a day filled with workshops, fun activities, and hacking! This hackathon is not affiliated with HCPSS.
               </p>
             </div>
 
@@ -199,7 +218,7 @@ const hero = () => {
                 </p>
                 <p className="text3" > 
                   {/* onClick={() => handleCardClicks("/events")} */}
-                  Guidelines <ArrowRightWhite className="arrow-right-icon" />
+                  Venue <ArrowRightWhite className="arrow-right-icon" />
                 </p>
               </div>
               {/* -------------------------- Column 2 * ---------------------------------- */}
@@ -207,19 +226,20 @@ const hero = () => {
               <div className="col1 animated-div" id="diff-col2">
                 <h3 className="text">
                   <div>
-                    Information Details
+                    Useful Information
                   </div>
                   <Calender className="calender-icon" />
                 </h3>
                 <p
                   className="text2"
-                  // onClick={() => handleCardClicks("/guidelines")}
+                  onClick={handleDevPostClick}
                 >
-                  Judges <ArrowRightWhite className="arrow-right-icon" />
+                  Devpost Listing <ArrowRightWhite className="arrow-right-icon" />
                 </p>
-                <p className="text3">
-                  Problem Statements
-                  {/* onClick={() => handleCardClicks("/events")} */}
+                <p 
+                  className="text3"
+                  onClick={handleRulesClick}>
+                  Guidelines
                   <ArrowRightWhite className="arrow-right-icon" />
                 </p>
               </div>

@@ -42,7 +42,7 @@ const contact = () => {
                     </div>
                     <div className="name-title">
                       <h3>Kevin Hwang</h3>
-                      <h4>Director</h4>
+                      <h4>Executive Director</h4>
                     </div>
                   </div>
                     <div className= "member-container">
@@ -158,7 +158,7 @@ const contact = () => {
                     <img src="/images/jackma.jpg" className="member-img" alt="team member photo"/>
                   </div>
                   <div className="name-title">
-                    <h3>Jack Ma</h3>
+                    <h3>Jack Zhang</h3>
                     <h4>Sponsorships</h4>
                   </div>
               </div>

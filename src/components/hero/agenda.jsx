@@ -35,7 +35,7 @@ const section2 = () => {
           <div className="section-title">
             <img src="images/bearicon.png" alt="arrow-logo" className="bear"/>
             <h1>
-              AGENDA
+              ABOUT
             </h1>
           </div>
 

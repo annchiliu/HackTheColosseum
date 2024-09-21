@@ -17,6 +17,17 @@ const sponsors = () => {
           </div>
 
         <div className="sponsors-container">
+
+          <h2>Our Partner</h2>
+          <div className="sponsors-container-sub partner" id="partner-container">
+              <div className="sponsors-name">
+                <a href="https://polaris.hclibrary.org/Polaris/"
+                target="_blank">
+                <img className="" src="/images/HCLS.png"></img>
+                </a>
+              </div>
+          </div>
+
           <h2>Our Platinum Sponsors</h2>
           <div className="sponsors-container-sub gold" id="gold-container">
               <div className="sponsors-name">
@@ -26,6 +37,7 @@ const sponsors = () => {
                 </a>
               </div>
           </div>
+
           <h2>Our Silver Sponsors</h2>
           <div className="sponsors-container-sub silver" id="silver-container">
               <div className="sponsors-name">
@@ -58,13 +70,26 @@ const sponsors = () => {
               <img src="/images/WolframAlpha.png"></img>
               </a>
             </div>
+
+            <div className="sponsors-name">
+              <a href="https://artofproblemsolving.com/"
+              target="_blank">
+              <img src="/images/AOPS.png"></img>
+              </a>
+            </div>
+
+            <div className="sponsors-name">
+              <a href="https://www.wegmans.com/"
+              target="_blank">
+              <img src="/images/Wegmans.png"></img>
+              </a>
+            </div>
           </div>
 
-       
-      
-
-
+          
         </div>
+
+        
 
         {/* <div className="sponsors-container">
           <div className="sponsors-border">

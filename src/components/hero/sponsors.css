@@ -182,6 +182,10 @@
   }
 }
 
+.partner img {
+  border: rgb(66, 103, 196) 3px solid;
+}
+
 .gold img {
   border: rgb(195, 192, 192) 3px solid;
 }
