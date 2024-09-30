@@ -33,8 +33,27 @@ const Navbar = () => {
       action: "click",
       label: "register",
     });
-    window.open("https://forms.gle/SWVN4Q6aEMZQcuWT6");
+    window.open("https://howardcounty.librarycalendar.com/event/hack-colosseum-276266");
   };
+
+  const handleScheduleClick = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "click",
+      label: "schedule",
+    });
+    window.open("https://docs.google.com/document/d/1mg4VfQEQmhtwVyeWSqvsYghllWwMao3p_Xmgaew2BDA/edit?usp=sharing");
+  };
+
+  const handleContactClick = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "click",
+      label: "schedule",
+    });
+    window.open("mailto:glenelg.competitive.programming@gmail.com");
+  };
+
 
   const handleScroll = (id) => {
     ReactGA.event({
@@ -108,13 +127,13 @@ const Navbar = () => {
               <p onClick={() => handleScroll("#agenda")}>AGENDA</p>
             </li>
             <li>
-              <p onClick={() => handleScroll("#schedule")}>SCHEDULE</p>
+              <p onClick={handleScheduleClick}>SCHEDULE</p>
             </li>
             <li>
               <p onClick={() => handleScroll("#faqs")}>FAQs</p>
             </li>
             <li>
-              <p onClick={() => handleScroll("#contact")}>CONTACTS</p>
+              <p onClick={handleContactClick}>CONTACT</p>
             </li>
           </ul>
           <div className="last">
@@ -136,7 +155,7 @@ const Navbar = () => {
             </div>
               <div className="last-mobile">
                 <h2 className="register-mobile">
-                  <a href="https://forms.gle/SWVN4Q6aEMZQcuWT6" target="_blank">
+                  <a href="https://howardcounty.librarycalendar.com/event/hack-colosseum-276266" target="_blank">
                     register
                   </a>
                 </h2>

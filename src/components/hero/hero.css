@@ -1104,3 +1104,16 @@ ol {
     margin-top: -115px;
   }
 }
+
+.location-icon {
+  font-size: 22px; /* Adjust size */
+  color: #fefefe;  /* Change the color */
+  margin: 0px;
+  padding: 0px;
+}
+
+.question-icon {
+  font-size: 22px; /* Adjust size */
+  color: #007bff;  /* Change the color to blue */
+  margin: 10px;
+}

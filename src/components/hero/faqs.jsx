@@ -145,7 +145,7 @@ const faqs = () => {
               />
             </h1>
             <p className="faqs-content-description">
-              Lunch and dinner will be provided in the form 
+              Lunch will be provided in the form 
               of pizza! We will also provide water as well as
               various juices and soft drinks. 
             </p>

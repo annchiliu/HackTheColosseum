@@ -20,7 +20,7 @@ const hero = () => {
       action: "click",
       label: "register",
     });
-    window.open("https://forms.gle/SWVN4Q6aEMZQcuWT6"); // Change form here
+    window.open("https://howardcounty.librarycalendar.com/event/hack-colosseum-276266"); // Change form here
   };
   
   const handleDevPostClick = () => {
@@ -208,7 +208,7 @@ const hero = () => {
               <div className="col1 animated-div" id="diff-col1">
                 <h3 className="text">
                     October 18th
-                  <Calender className="calender-icon" />
+                  <i className="fas fa-question-circle question-icon"></i>
                 </h3>
                 <p
                   className="text2"
@@ -239,7 +239,10 @@ const hero = () => {
                 <p 
                   className="text3"
                   onClick={handleRulesClick}>
-                  Guidelines
+                  <span>
+                    <i className="fas fa-map-marker-alt location-icon"></i>
+                    HCLS Miller Branch/Remote
+                  </span>
                   <ArrowRightWhite className="arrow-right-icon" />
                 </p>
               </div>
@@ -261,6 +264,9 @@ const hero = () => {
                   <ol>
                     <li>
                       Gaming Keyboard
+                    </li>
+                    <li>
+                      AoPS gift cards
                     </li>
                     <li>
                       1-year access to Wolfram | One Professional Edition
