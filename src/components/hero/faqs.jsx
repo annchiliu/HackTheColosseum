@@ -133,7 +133,7 @@ const faqs = () => {
               />
             </h1>
             <p className="faqs-content-description">
-              Teams can have anywhere from 1-3 people!
+              Teams can have anywhere from 1-4 people!
             </p>
           </div>
           <div className="faqs-content" onClick={handleArrow}>

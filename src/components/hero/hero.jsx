@@ -258,7 +258,7 @@ const hero = () => {
                 
                 <div className="prize-container">
                   <h4 className="prize-title">
-                    In-Person 1st Place
+                    In-Person Best Overall
                   </h4>
 
                   <ol>
@@ -276,7 +276,7 @@ const hero = () => {
                   {/* ------------------------------ */}
                   
                   <h4 className="prize-title">
-                    In-Person 2nd Place
+                  In-Person Best Overall Runner-Up
                   </h4>
                   <ol>
                     <li>
@@ -290,7 +290,7 @@ const hero = () => {
                   {/* ------------------------------ */}
                 
                   <h4 className="prize-title">
-                    In-Person Third Place
+                  In-Person Best Beginner Hack
                   </h4>
                   <ol>
                     <li>
@@ -304,10 +304,10 @@ const hero = () => {
                   {/* ------------------------------ */}
 
                   <h4 className="prize-title">
-                    In-Person Activity (3x)
+                  In-Person Activity (2x)
                   </h4>
                   <p>
-                    The winner of each of activity will win a $5 Amazon gift card
+                  The winner of each of activity will win a $5 Amazon gift card
                   </p><br/>
 
                   {/* ------------------------------ */}
@@ -315,7 +315,7 @@ const hero = () => {
             
 
                   <h4 className="prize-title">
-                      Online Best Overall
+                    Online Best Overall
                     </h4>
                     <ol>
                       <li>
