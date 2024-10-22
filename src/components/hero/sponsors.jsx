@@ -48,9 +48,9 @@ const sponsors = () => {
               </div>
 
               <div className="sponsors-name">
-                <a href="https://brightbotsint.org/"
+                <a href="https://brightbots.org/"
                 target="_blank">
-                <img className="" src="/images/Brightbot.png"></img>
+                <img className="" src="/images/brightbots.jpg"></img>
                 </a>
               </div>
 
