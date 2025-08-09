@@ -184,7 +184,7 @@
   gap: 0.2vw;
 }
 
-.register {
+.register, .donate {
   position: relative;
   font-size: 1.2vw;
   padding: 0.5vh 1vw;
@@ -193,20 +193,20 @@
   margin-right: 10px;
 }
 
-.register-mobile a {
+.register-mobile a, .donate-mobile a {
   font-family: joystix;
   font-size: 3vw;
 }
 
-.register:hover {
+.register:hover, .donate:hover {
   border-color: rgb(248, 50, 50);
 }
 
-.register p {
+.register p, .donate p {
   font-family: joystix;
 }
 
-.register > p {
+.register > p, .donate > p {
   text-decoration: none;
   color: white;
   cursor: pointer;
@@ -305,13 +305,17 @@
 .navbar-open ul li p:hover::after {
   animation: line 0.3s ease-in-out forwards;
 }
-.register-mobile {
+.register-mobile, .donate-mobile {
   position: relative;
   font-family: joystix;
   font-size: 3vw;
   padding: .4vh 1vw;
-
   border: 2px solid slategray;
   border-radius: 1vw;
   cursor: pointer;
+}
+
+.last-mobile {
+  display: flex;
+  gap: 2vw;
 }

@@ -6,6 +6,7 @@ import VanillaTilt from "vanilla-tilt";
 import Agenda from "./agenda";
 import Schedule from "./schedule";
 import Sponsors from "./sponsors";
+import LastYearInfo from "./lastyrinfo";
 import { Footer } from "../";
 import { ReactComponent as Calender } from "../../assets/calender.svg";
 import { ReactComponent as Info } from "../../assets/info.svg";
@@ -66,7 +67,7 @@ const hero = () => {
   };
 
   const handleCountdown = () => {
-    const countDate = new Date("October 18, 2024 10:00:00").getTime(); //9/21/2024
+    const countDate = new Date("October 17, 2025 10:00:00").getTime(); //9/21/2024
     const now = new Date().getTime();
     const diff = countDate - now;
     {
@@ -163,7 +164,7 @@ const hero = () => {
               </p>
               <br/>
               <p>
-                The hackathon will be hosted both in-person at the Miller Branch Library and online on Devpost on October 18th.  Prepare for a day filled with workshops, fun activities, and hacking! This hackathon is not affiliated with HCPSS.
+                The hackathon will be hosted both in-person at the Miller Branch Library and online on Devpost on October 17th.  Prepare for a day filled with workshops, fun activities, and hacking! This hackathon is not affiliated with HCPSS.
               </p>
             </div>
 
@@ -396,8 +397,8 @@ const hero = () => {
         {/* -------------------------- Page 2 -------------------------- */}
       </div>
       <Agenda />
-      <Schedule />
-      <Sponsors />
+      <LastYearInfo />
+      <Sponsors />  
       <Footer />
     </React.Fragment>
   );

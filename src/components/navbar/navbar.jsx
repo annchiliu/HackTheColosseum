@@ -36,6 +36,15 @@ const Navbar = () => {
     window.open("https://howardcounty.librarycalendar.com/event/hack-colosseum-276266");
   };
 
+  const handleDonateClick = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "click",
+      label: "donate",
+    });
+    window.open("https://hcb.hackclub.com/donations/start/glenelg-hs-competitive-programming-club");
+  };
+
   const handleScheduleClick = () => {
     ReactGA.event({
       category: "Button",
@@ -137,8 +146,11 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="last">
+            <h2 className="donate">
+              <p onClick={handleDonateClick}>Donate</p>
+            </h2>
             <h2 className="register">
-              <p onClick={handleRegisterClick}> Register</p>
+              <p onClick={handleRegisterClick}>Register</p>
             </h2>
           </div>
         </div>
@@ -154,6 +166,11 @@ const Navbar = () => {
               Hackathon
             </div>
               <div className="last-mobile">
+                <h2 className="donate-mobile">
+                  <a href="https://hcb.hackclub.com/donations/start/glenelg-hs-competitive-programming-club" target="_blank">
+                    donate
+                  </a>
+                </h2>
                 <h2 className="register-mobile">
                   <a href="https://howardcounty.librarycalendar.com/event/hack-colosseum-276266" target="_blank">
                     register

@@ -36,37 +36,34 @@ const contact = () => {
 
             <div className="team-container">
               <div className="row1">
-                  <div className= "member-container">
-                    <div className="photo-container">
-                      <img src="/images/neurips_headshot.jpg" className="member-img" alt="team member photo"/>
-                    </div>
-                    <div className="name-title">
-                      <h3>Kevin Hwang</h3>
-                      <h4>Executive Director</h4>
-                    </div>
-                  </div>
-                    <div className= "member-container">
+                <div className= "member-container">
                   <div className="photo-container">
-                      <img src="/images/IMG_5033.jpg" className="member-img" alt="team member photo"/>
+                    <img src="/images/IMG_5033.jpg" className="member-img" alt="team member photo"/>
                   </div>
                   <div className="name-title">
                     <h3>Shreyash Gajam</h3>
                     <h4>Sponsorships</h4>
                   </div>
                 </div>
-
-
-                  <div className= "member-container">
-                    <div className="photo-container">
-                      <img src="/images/sanjayyy.jpg" className="member-img" alt="team member photo"/>
-                    </div>
-                    <div className="name-title">
-                      <h3>Sanjay Mavalli</h3>
-                      <h4>Sponsorships</h4>
-                    </div>
+                <div className= "member-container">
+                  <div className="photo-container">
+                    <img src="/images/sanjayyy.jpg" className="member-img" alt="team member photo"/>
                   </div>
-
-              </div> 
+                  <div className="name-title">
+                    <h3>Sanjay Mavalli</h3>
+                    <h4>Sponsorships</h4>
+                  </div>
+                </div>
+                <div className= "member-container">
+                  <div className="photo-container">
+                    <img src="/images/alex.jpg" className="member-img" alt="team member photo"/>
+                  </div>
+                  <div className="name-title">
+                    <h3>Alex Chen</h3>
+                    <h4>Sponsorships</h4>
+                  </div>
+                </div>
+              </div>
 
                 {/* <div className= "member-container">
                   <div className="photo-container">
@@ -80,37 +77,7 @@ const contact = () => {
                 </div> */}
              
              <div className="row2">
-                {/* <div className= "member-container">
-                    <div className="photo-container">
-                        <img src="/images/IMG_5033.jpg" className="member-img" alt="team member photo"/>
-                    </div>
-                    <div className="name-title">
-                      <h3>Shreyash Gajam</h3>
-                      <h4>Sponsorships</h4>
-                    </div>
-                </div> */}
-
                 <div className= "member-container">
-                    <div className="photo-container">
-                      <img src="/images/IMG_5862.jpeg" className="member-img" alt="team member photo"/>
-                    </div>
-                    <div className="name-title">
-                      <h3>Kenny Wang</h3>
-                      <h4>Director</h4>
-                    </div>
-                </div>
-    
-              <div className= "member-container">
-                <div className="photo-container">
-                  <img src="/images/alex.jpg" className="member-img" alt="team member photo"/>
-                </div>
-                  <div className="name-title">
-                    <h3>Alex Chen</h3>
-                    <h4>Sponsorships</h4>
-                  </div>
-              </div>
-
-              <div className= "member-container">
                   <div className="photo-container">
                     <img src="/images/annchi.jpg" className="member-img" alt="team member photo"/>
                   </div>
@@ -118,42 +85,8 @@ const contact = () => {
                     <h3>Annchi Liu</h3>
                     <h4>Web Development</h4>
                   </div>
-              </div>
-             </div>
-
-             <div className="row3">
-
-             <div className= "member-container">
-                    <div className="photo-container">
-                      <img src="/images/Samuel Yoon Headshot.jpg" className="member-img" alt="team member photo"/>
-                    </div>
-                      <div className="name-title">
-                        <h3>Samuel Yoon</h3>
-                        <h4>Director</h4>
-                      </div>
-                  </div>
-
-             <div className= "member-container">
-                  <div className="photo-container">
-                    <img src="/images/dani.jpg" className="member-img" alt="team member photo"/>
-                  </div>
-                  <div className="name-title">
-                    <h3>Dani Foster</h3>
-                    <h4>Web Development</h4>
-                  </div>
-              </div>
-
-              {/* <div className= "member-container">
-                  <div className="photo-container">
-                    <img src="/images/sanjayyy.jpg" className="member-img" alt="team member photo"/>
-                  </div>
-                  <div className="name-title">
-                    <h3>Sanjay Mavalli</h3>
-                    <h4>Sponsorships</h4>
-                  </div>
-              </div> */}
-
-              <div className= "member-container">
+                </div>
+                <div className= "member-container">
                   <div className="photo-container">
                     <img src="/images/jackma.jpg" className="member-img" alt="team member photo"/>
                   </div>
@@ -161,8 +94,10 @@ const contact = () => {
                     <h3>Jack Zhang</h3>
                     <h4>Sponsorships</h4>
                   </div>
-              </div>
+                </div>
              </div>
+
+             {/* Removed row3, now only two rows: three members on top, two on bottom */}
           </div>
 
       </div>
