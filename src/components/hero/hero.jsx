@@ -208,7 +208,7 @@ const hero = () => {
             <div className="intro-boxes">
               <div className="col1 animated-div" id="diff-col1">
                 <h3 className="text">
-                  Oct-18th
+                  Oct-17th
                   <i className="fas fa-question-circle question-icon"></i>
                 </h3>
                 <p
