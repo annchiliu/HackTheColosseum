@@ -65,7 +65,14 @@ const hero = () => {
     });
     window.open("https://docs.google.com/document/d/1LiOKqJa3wTf3KeAhxt9qy7TloAWRwsEsIQ8xSawMXw8/edit?usp=sharing");
   };
-
+  const handleVenueClick = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "click",
+      label: "venue",
+    });
+    window.open("https://howardcounty.librarycalendar.com/reserve-room/miller-branch");
+  };
   const handleCountdown = () => {
     const countDate = new Date("October 17, 2025 10:00:00").getTime(); //9/21/2024
     const now = new Date().getTime();
@@ -217,8 +224,9 @@ const hero = () => {
                 >
                   Schedule <ArrowRightWhite className="arrow-right-icon" />
                 </p>
-                <p className="text3" > 
-                  {/* onClick={() => handleCardClicks("/events")} */}
+                <p
+                  className="text3"
+                  onClick={() => handleVenueClick()}>
                   Venue <ArrowRightWhite className="arrow-right-icon" />
                 </p>
               </div>

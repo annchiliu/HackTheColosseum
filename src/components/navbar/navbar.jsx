@@ -45,6 +45,15 @@ const Navbar = () => {
     window.open("https://hcb.hackclub.com/donations/start/glenelg-hs-competitive-programming-club");
   };
 
+  const handleVolunteerClick = () => {
+    ReactGA.event({
+      category: "Button",
+      action: "click",
+      label: "volunteer",
+    });
+    window.open("https://forms.gle/XjXEtT4D3LjxrG1V6");
+  };
+
   const handleScheduleClick = () => {
     ReactGA.event({
       category: "Button",
@@ -146,6 +155,9 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="last">
+            <h2 className="volunteer">
+              <p onClick={handleVolunteerClick}>Volunteer</p>
+            </h2>
             <h2 className="donate">
               <p onClick={handleDonateClick}>Donate</p>
             </h2>
@@ -166,6 +178,11 @@ const Navbar = () => {
               Hackathon
             </div>
               <div className="last-mobile">
+                <h2 className="volunteer-mobile">
+                  <a href="https://forms.gle/XjXEtT4D3LjxrG1V6" target="_blank">
+                    volunteer
+                  </a>
+                </h2>
                 <h2 className="donate-mobile">
                   <a href="https://hcb.hackclub.com/donations/start/glenelg-hs-competitive-programming-club" target="_blank">
                     donate

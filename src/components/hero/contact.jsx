@@ -38,20 +38,11 @@ const contact = () => {
               <div className="row1">
                 <div className= "member-container">
                   <div className="photo-container">
-                    <img src="/images/IMG_5033.jpg" className="member-img" alt="team member photo"/>
+                    <img src="/images/annchi.jpg" className="member-img" alt="team member photo"/>
                   </div>
                   <div className="name-title">
-                    <h3>Shreyash Gajam</h3>
-                    <h4>Sponsorships</h4>
-                  </div>
-                </div>
-                <div className= "member-container">
-                  <div className="photo-container">
-                    <img src="/images/sanjayyy.jpg" className="member-img" alt="team member photo"/>
-                  </div>
-                  <div className="name-title">
-                    <h3>Sanjay Mavalli</h3>
-                    <h4>Sponsorships</h4>
+                    <h3>Annchi Liu</h3>
+                    <h4>Sponsors, Designer, Finance</h4>
                   </div>
                 </div>
                 <div className= "member-container">
@@ -60,7 +51,16 @@ const contact = () => {
                   </div>
                   <div className="name-title">
                     <h3>Alex Chen</h3>
-                    <h4>Sponsorships</h4>
+                    <h4>Sponsors, Website, Finance</h4>
+                  </div>
+                </div>
+                <div className= "member-container">
+                  <div className="photo-container">
+                    <img src="/images/sanjayyy.jpg" className="member-img" alt="team member photo"/>
+                  </div>
+                  <div className="name-title">
+                    <h3>Sanjay Mavalli</h3>
+                    <h4>Sponsors, Judges</h4>
                   </div>
                 </div>
               </div>
@@ -79,25 +79,33 @@ const contact = () => {
              <div className="row2">
                 <div className= "member-container">
                   <div className="photo-container">
-                    <img src="/images/annchi.jpg" className="member-img" alt="team member photo"/>
-                  </div>
-                  <div className="name-title">
-                    <h3>Annchi Liu</h3>
-                    <h4>Web Development</h4>
-                  </div>
-                </div>
-                <div className= "member-container">
-                  <div className="photo-container">
                     <img src="/images/jackma.jpg" className="member-img" alt="team member photo"/>
                   </div>
                   <div className="name-title">
                     <h3>Jack Zhang</h3>
-                    <h4>Sponsorships</h4>
+                    <h4>Sponsors Lead</h4>
+                  </div>
+                </div>
+                <div className= "member-container">
+                  <div className="photo-container">
+                    <img src="/images/IMG_5033.jpg" className="member-img" alt="team member photo"/>
+                  </div>
+                  <div className="name-title">
+                    <h3>Shreyash Gajam</h3>
+                    <h4>Sponsors, Venue, Finance</h4>
+                  </div>
+                </div>
+                <div className="member-container">
+                  <div className="photo-container">
+                    <img src="/images/josh.jpg" className="member-img" alt="Joshua Kim"/>
+                  </div>
+                  <div className="name-title">
+                    <h3>Joshua Kim</h3>
+                    <h4>Sponsors</h4>
                   </div>
                 </div>
              </div>
-
-             {/* Removed row3, now only two rows: three members on top, two on bottom */}
+             {/* Now row1 has 2 members (shorter text), row2 has 4 members including the longer text ones */}
           </div>
 
       </div>
