@@ -63,7 +63,7 @@ const hero = () => {
       action: "click",
       label: "schedule",
     });
-    window.open("https://docs.google.com/document/d/1LiOKqJa3wTf3KeAhxt9qy7TloAWRwsEsIQ8xSawMXw8/edit?usp=sharing");
+    window.open("https://docs.google.com/document/d/19aVfaPz5rEogUQB4B2dvWNAXnV9CkFe1xvZdYuMSYaM/edit?usp=sharing   ");
   };
   const handleVenueClick = () => {
     ReactGA.event({
