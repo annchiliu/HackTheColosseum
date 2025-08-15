@@ -110,7 +110,6 @@
   height: 20px;
 }
 
-/* Ensure only active carousel item is visible */
 .carousel-item {
   display: none;
   position: relative;
@@ -127,7 +126,6 @@
   display: block;
 }
 
-/* Slide transition effects */
 .carousel-item-next:not(.carousel-item-start),
 .carousel-item.active.carousel-item-end {
   transform: translateX(100%);
