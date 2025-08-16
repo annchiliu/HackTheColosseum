@@ -42,7 +42,7 @@ const contact = () => {
                   </div>
                   <div className="name-title">
                     <h3>Annchi Liu</h3>
-                    <h4>Sponsors, Designer, Finance</h4>
+                    <h4>Sponsors, Designer</h4>
                   </div>
                 </div>
                 <div className= "member-container">
@@ -51,7 +51,7 @@ const contact = () => {
                   </div>
                   <div className="name-title">
                     <h3>Alex Chen</h3>
-                    <h4>Sponsors, Website, Finance</h4>
+                    <h4>Sponsors, Website, Judges</h4>
                   </div>
                 </div>
                 <div className= "member-container">
@@ -92,7 +92,7 @@ const contact = () => {
                   </div>
                   <div className="name-title">
                     <h3>Shreyash Gajam</h3>
-                    <h4>Sponsors, Venue, Finance</h4>
+                    <h4>Sponsors, Venue</h4>
                   </div>
                 </div>
                 <div className="member-container">
