@@ -13,7 +13,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   background-color: #f4f4f3;
   background-image:
       radial-gradient(circle, rgba(123, 106, 98, 0.266) 1px, transparent 1px),
@@ -21,31 +20,14 @@
       radial-gradient(circle, rgba(123, 106, 98, 0.266) 1px, transparent 1px),
       radial-gradient(circle, rgba(123, 106, 98, 0.266) 1px, transparent 1px),
       radial-gradient(circle, rgba(123, 106, 98, 0.266) 1px, transparent 1px);
-  background-size:
-      20px 20px,
-      35px 35px,
-      50px 50px,
-      65px 65px,
-      80px 80px;
-  background-position:
-      0px 0px,
-      10px 20px,
-      30px 10px,
-      50px 30px,
-      70px 50px;
-
-  @media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
-    padding: 5vh 2vw;
-  }
+  background-size: 20px 20px, 35px 35px, 50px 50px, 65px 65px, 80px 80px;
+  background-position: 0px 0px, 10px 20px, 30px 10px, 50px 30px, 70px 50px;
 }
 
-.parent-lastyrinfo::after {
-  content: " ";
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  opacity: 1;
-  background-size: contain;
+@media all and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+  .parent-lastyrinfo {
+    padding: 5vh 2vw;
+  }
 }
 
 .carousel {
@@ -65,103 +47,23 @@
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
 }
 
+.carousel-track {
+  display: flex;
+  width: 100%;
+  transition: transform 0.6s ease-in-out;
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+  width: 100%;
+  position: relative;
+}
+
 .carousel-image {
   width: 100%;
   height: 529px;
   object-fit: cover;
   border-radius: 20px;
-}
-
-.carousel-indicators {
-  bottom: 15px;
-}
-
-.carousel-indicators li {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.5);
-  border: none;
-  margin: 0 4px;
-  transition: all 0.3s ease;
-}
-
-.carousel-indicators .active {
-  background-color: #2d89ef;
-  transform: scale(1.2);
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-  width: 8%;
-  opacity: 0.7;
-  transition: opacity 0.3s ease;
-}
-
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
-  opacity: 1;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-size: 20px 20px;
-  width: 20px;
-  height: 20px;
-}
-
-.carousel-item {
-  display: none;
-  position: relative;
-  width: 100%;
-  transition: transform 0.6s ease-in-out;
-}
-
-.carousel-item.active {
-  display: block;
-}
-
-.carousel-item-next,
-.carousel-item-prev {
-  display: block;
-}
-
-.carousel-item-next:not(.carousel-item-start),
-.carousel-item.active.carousel-item-end {
-  transform: translateX(100%);
-}
-
-.carousel-item-prev:not(.carousel-item-end),
-.carousel-item.active.carousel-item-start {
-  transform: translateX(-100%);
-}
-
-@media (max-width: 768px) {
-  .carousel {
-    margin: 30px auto;
-    max-width: 90%;
-  }
-  
-  .carousel-image {
-    height: 400px;
-  }
-  
-  .carousel-indicators li {
-    width: 10px;
-    height: 10px;
-  }
-}
-
-@media (max-width: 480px) {
-  .carousel-image {
-    height: 320px;
-  }
-  
-  .carousel-indicators [data-bs-target] {
-    width: 8px;
-    height: 8px;
-    margin: 0 3px;
-  }
 }
 
 .carousel-control-prev,
@@ -177,20 +79,18 @@
   cursor: pointer;
   z-index: 10;
   border-radius: 50%;
-}
-
-.carousel-control-prev {
-  left: 15px;
-}
-
-.carousel-control-next {
-  right: 15px;
+  opacity: 0.7;
+  transition: opacity 0.3s ease, background 0.3s ease;
 }
 
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
+  opacity: 1;
   background: rgba(0, 0, 0, 0.6);
 }
+
+.carousel-control-prev { left: 15px; }
+.carousel-control-next { right: 15px; }
 
 .carousel-indicators {
   display: flex;
@@ -203,12 +103,14 @@
 }
 
 .carousel-indicators li {
-  cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.5);
   width: 12px;
   height: 12px;
   border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
   margin: 0 4px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .carousel-indicators .active {
@@ -216,10 +118,18 @@
   transform: scale(1.2);
 }
 
-.carousel-item.prev {
-  left: -100%;
-  opacity: 0;
-  z-index: 1;
+@media (max-width: 768px) {
+  .carousel {
+    margin: 30px auto;
+    max-width: 90%;
+  }
+  .carousel-image { height: 400px; }
+  .carousel-indicators li { width: 10px; height: 10px; }
+}
+
+@media (max-width: 480px) {
+  .carousel-image { height: 320px; }
+  .carousel-indicators li { width: 8px; height: 8px; margin: 0 3px; }
 }
 
 .stats-container {
@@ -236,11 +146,9 @@ h2 {
 
 .stats-grid {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: stretch;
-  gap: 30px;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px;
 }
 
 .stat-card {
@@ -250,31 +158,19 @@ h2 {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s, box-shadow 0.3s;
 }
-
 .stat-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
-
 .stat-number {
   font-size: 2.5em;
   font-weight: bold;
   color: #2d89ef;
 }
-
 .stat-label {
   margin-top: 10px;
   font-size: 1em;
   color: #666;
-}
-
-.stats-container::after {
-  content: " ";
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  opacity: 1;
-  background-size: contain;
 }
 
 .past-winners-section {
@@ -293,11 +189,9 @@ h2 {
 
 .winners-grid {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: stretch;
-  gap: 30px;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px;
 }
 
 .winner-category {
@@ -310,22 +204,17 @@ h2 {
   position: relative;
   overflow: hidden;
 }
-
 .winner-category::before {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
+  top: 0; left: 0; right: 0;
   height: 4px;
   background: linear-gradient(90deg, #2d89ef, #4a9eff);
 }
-
 .winner-category:hover {
   transform: translateY(-8px);
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
 }
-
 .winner-category h3 {
   font-size: 1.4em;
   color: #333;
@@ -341,11 +230,7 @@ h2 {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
-
-.winner-image-container:hover {
-  transform: scale(1.02);
-}
-
+.winner-image-container:hover { transform: scale(1.02); }
 .winner-image-container img {
   width: 100%;
   height: 200px;
@@ -353,17 +238,11 @@ h2 {
   display: block;
   transition: opacity 0.3s ease;
 }
-
-.winner-image-container:hover img {
-  opacity: 0.9;
-}
-
+.winner-image-container:hover img { opacity: 0.9; }
 .winner-image-container::after {
   content: '🔗 View Project';
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  bottom: 0; left: 0; right: 0;
   background: linear-gradient(to top, rgba(45, 137, 239, 0.9), transparent);
   color: white;
   padding: 15px;
@@ -374,54 +253,25 @@ h2 {
   align-items: center;
   justify-content: center;
 }
-
-.winner-image-container:hover::after {
-  opacity: 1;
-}
+.winner-image-container:hover::after { opacity: 1; }
 
 .winner-category.first-place {
   background: linear-gradient(135deg, #fff9e6, #ffffff);
   border: 2px solid #ffd700;
 }
-
 .winner-category.first-place::before {
   background: linear-gradient(90deg, #ffd700, #ffed4e);
 }
-
-.winner-category.first-place h3 {
-  color: #b8860b;
-}
+.winner-category.first-place h3 { color: #b8860b; }
 
 @media (max-width: 768px) {
-  .winners-grid {
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
-  
-  .winner-category {
-    padding: 25px;
-  }
-  
-  .past-winners-section h2 {
-    font-size: 2em;
-    margin-bottom: 40px;
-  }
-  
-  .winner-category h3 {
-    font-size: 1.2em;
-  }
+  .past-winners-section h2 { font-size: 2em; margin-bottom: 40px; }
+  .winner-category { padding: 25px; }
+  .winner-category h3 { font-size: 1.2em; }
 }
 
 @media (max-width: 480px) {
-  .past-winners-section {
-    padding: 0 15px;
-  }
-  
-  .winner-category {
-    padding: 20px;
-  }
-  
-  .winner-image-container img {
-    height: 180px;
-  }
+  .past-winners-section { padding: 0 15px; }
+  .winner-category { padding: 20px; }
+  .winner-image-container img { height: 180px; }
 }

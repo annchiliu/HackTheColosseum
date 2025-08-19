@@ -42,7 +42,7 @@ const contact = () => {
                   </div>
                   <div className="name-title">
                     <h3>Annchi Liu</h3>
-                    <h4>Sponsors, Designer</h4>
+                    <h4>Sponsors, Website</h4>
                   </div>
                 </div>
                 <div className= "member-container">

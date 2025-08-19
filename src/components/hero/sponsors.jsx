@@ -13,7 +13,7 @@ const sponsors = () => {
         <div className="section-title">
           <img src="images/bearicon.png" alt="arrow-logo" className="bear"/>
           <h1>
-            Current 2025 SPONSORS
+            2025 SPONSORS
           </h1>
         </div>
         

@@ -74,7 +74,7 @@ const hero = () => {
     window.open("https://howardcounty.librarycalendar.com/reserve-room/miller-branch");
   };
   const handleCountdown = () => {
-    const countDate = new Date("October 17, 2025 10:00:00").getTime(); //9/21/2024
+    const countDate = new Date("October 20, 2025 10:00:00").getTime(); //9/21/2024
     const now = new Date().getTime();
     const diff = countDate - now;
     {
@@ -167,11 +167,11 @@ const hero = () => {
 
             <div className="description">
               <p>
-                The Glenelg Competitive Programming Club is excited to introduce its 2nd year running their hybrid hackathon: Hack the Colosseum. Currently sponsored by Stansberry Research, but hope to find more. Last year, we were sponsored by Constellation, Stansberry Research, Brightbots Initiative, Netesenz, and WolframAlpha.
+                The Glenelg Competitive Programming Club is excited to introduce its 2nd annual hackathon: Hack the Colosseum 2025. This year’s hackathon is proudly supported by Stansberry Research and Wolfram, with more sponsors to be announced soon.
               </p>
               <br/>
               <p>
-                The hackathon will be hosted both in-person at the Miller Branch Library and online on Devpost on October 17th.  Prepare for a day filled with workshops, fun activities, and hacking! This hackathon is not affiliated with HCPSS.
+                The hackathon will be hosted both in-person at the Miller Branch Library and online on Devpost on October 20th.  Prepare for a day filled with workshops, fun activities, and hacking! This hackathon is not affiliated with HCPSS.
               </p>
             </div>
 
