@@ -71,7 +71,7 @@ const hero = () => {
       action: "click",
       label: "venue",
     });
-    window.open("https://howardcounty.librarycalendar.com/reserve-room/miller-branch");
+    window.open("https://howardcounty.librarycalendar.com/branch/elkridge-branch");
   };
   const handleCountdown = () => {
     const countDate = new Date("October 20, 2025 10:00:00").getTime(); //9/21/2024
@@ -167,11 +167,11 @@ const hero = () => {
 
             <div className="description">
               <p>
-                The Glenelg Competitive Programming Club is excited to introduce its 2nd annual hackathon: Hack the Colosseum 2025. This year’s hackathon is proudly supported by Stansberry Research and Wolfram, with more sponsors to be announced soon.
+                The Glenelg Competitive Programming Club is excited to introduce its 2nd annual hackathon: Hack the Colosseum 2025. This year’s hackathon is proudly supported by Wegmans and Wolfram, with more sponsors to be announced soon.
               </p>
               <br/>
               <p>
-                The hackathon will be hosted both in-person at the Miller Branch Library and online on Devpost on October 20th.  Prepare for a day filled with workshops, fun activities, and hacking! This hackathon is not affiliated with HCPSS.
+                The hackathon will be hosted both in-person at the Elkridge Branch Library and online on Devpost on October 17th.  Prepare for a day filled with workshops, fun activities, and hacking! This hackathon is not affiliated with HCPSS.
               </p>
             </div>
 
