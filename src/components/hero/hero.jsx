@@ -74,7 +74,7 @@ const hero = () => {
     window.open("https://howardcounty.librarycalendar.com/branch/elkridge-branch");
   };
   const handleCountdown = () => {
-    const countDate = new Date("October 20, 2025 10:00:00").getTime(); //9/21/2024
+    const countDate = new Date("October 17, 2025 10:00:00").getTime(); //9/21/2024
     const now = new Date().getTime();
     const diff = countDate - now;
     {
@@ -215,7 +215,7 @@ const hero = () => {
             <div className="intro-boxes">
               <div className="col1 animated-div" id="diff-col1">
                 <h3 className="text">
-                  Oct-20th
+                  Oct-17th
                   <i className="fas fa-question-circle question-icon"></i>
                 </h3>
                 <p
@@ -250,7 +250,7 @@ const hero = () => {
                   onClick={handleRulesClick}>
                   <span>
                     <i className="fas fa-map-marker-alt location-icon"></i>
-                    HCLS Miller Branch/Remote
+                    HCLS Elkridge Branch/Remote
                   </span>
                   <ArrowRightWhite className="arrow-right-icon" />
                 </p>
