@@ -37,16 +37,30 @@ const sponsors = () => {
           </div>
           <h2>Our Silver Sponsors</h2>
           <div className="sponsors-container-sub silver" id="silver-container">
-            
-          </div>
-          <h2>Our Bronze Sponsors</h2>
-          <div className="sponsors-container-sub bronze">
             <div className="sponsors-name">
                     <a href="https://www.wegmans.com/" target="_blank">
                         <img src="/images/Wegmans.png" alt="Wegmans"/>
                     </a>
                 </div>
+                <div className="sponsors-name">
+                    <a href="https://www.interviewcake.com/" target="_blank">
+                        <img src="/images/cake_logo_white_on_blue.png" alt="Wegmans"/>
+                    </a>
                 </div>
+          </div>
+          <h2>Our Bronze Sponsors</h2>
+          <div className="sponsors-container-sub bronze">
+                <div className="sponsors-name">
+                    <a href="https://artofproblemsolving.com/" target="_blank">
+                        <img src="/images/AOPS.png" alt="Art of Problem Solving"/>
+                    </a>
+                </div>
+                <div className="sponsors-name">
+                    <a href="https://gen.xyz/" target="_blank">
+                        <img src="/images/xyz-logo-color.png" alt=".xyz"/>
+                    </a>
+                </div>
+            </div>
         </div>
       </div>
 

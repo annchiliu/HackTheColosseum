@@ -316,6 +316,7 @@
 
 .sponsors-name img {
   width: 380px;
+  height: 105px;
   border-radius: 10px;
   background: white;
   filter: drop-shadow(0 0 0.13rem rgba(2, 36, 51, 0.207));
@@ -530,6 +531,7 @@
 
 .past-sponsors-name img {
   width: 320px;
+  height: 9 0px;
   border-radius: 9px;
   background: white;
   filter: drop-shadow(0 0 0.12rem rgba(2, 36, 51, 0.207));
