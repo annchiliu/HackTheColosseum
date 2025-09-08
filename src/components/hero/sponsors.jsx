@@ -29,11 +29,7 @@ const sponsors = () => {
           </div>
           <h2>Our Platinum Sponsors</h2>
           <div className="sponsors-container-sub gold" id="gold-container">
-            <div className="sponsors-name">
-                    <a href="https://www.wolframalpha.com/" target="_blank">
-                        <img src="/images/WolframAlpha.png" alt="Wolfram Alpha"/>
-                    </a>
-                </div>
+            
           </div>
           <h2>Our Silver Sponsors</h2>
           <div className="sponsors-container-sub silver" id="silver-container">
@@ -45,6 +41,11 @@ const sponsors = () => {
                 <div className="sponsors-name">
                     <a href="https://www.interviewcake.com/" target="_blank">
                         <img src="/images/cake_logo_white_on_blue.png" alt="Wegmans"/>
+                    </a>
+                </div>
+                <div className="sponsors-name">
+                    <a href="https://www.wolframalpha.com/" target="_blank">
+                        <img src="/images/WolframAlpha.png" alt="Wolfram Alpha"/>
                     </a>
                 </div>
           </div>
