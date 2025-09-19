@@ -167,7 +167,7 @@ const hero = () => {
 
             <div className="description">
               <p>
-                The Glenelg Competitive Programming Club is excited to introduce its 2nd annual hackathon: Hack the Colosseum 2025. This year’s hackathon is proudly supported by Wegmans and Wolfram, with more sponsors to be announced soon.
+                The Glenelg Competitive Programming Club is excited to introduce its 2nd annual hackathon: Hack the Colosseum 2025. This year’s hackathon is proudly supported by many companies including Constellation, Craig, and Fidelity with more on the way! We hope to see you there!
               </p>
               <br/>
               <p>
