@@ -36,72 +36,67 @@ const contact = () => {
 
             <div className="team-container">
               <div className="row1">
+                  <div className= "member-container">
+                  <div className="photo-container">
+                    <img src="/images/IMG_5033.jpg" className="member-img" alt="team member photo"/>
+                  </div>
+                  <div className="name-title">
+                    <h3>Shreyash Gajam</h3>
+                    <h4>Executive Director</h4>
+                  </div>
+                </div>
+
                 <div className= "member-container">
                   <div className="photo-container">
                     <img src="/images/annchi.jpg" className="member-img" alt="team member photo"/>
                   </div>
                   <div className="name-title">
                     <h3>Annchi Liu</h3>
-                    <h4>Sponsors, Website</h4>
+                    <h4>Associate Director</h4>
                   </div>
                 </div>
-                <div className= "member-container">
+
+                  <div className= "member-container">
                   <div className="photo-container">
-                    <img src="/images/alex.jpg" className="member-img" alt="team member photo"/>
+                    <img src="/images/jackma.jpg" className="member-img" alt="team member photo"/>
                   </div>
                   <div className="name-title">
-                    <h3>Alex Chen</h3>
-                    <h4>Sponsors, Website, Judges</h4>
+                    <h3>Jack Zhang</h3>
+                    <h4>Associate Director</h4>
                   </div>
                 </div>
+              </div>
+             <div className="row2">
+                
                 <div className= "member-container">
                   <div className="photo-container">
                     <img src="/images/sanjayyy.jpg" className="member-img" alt="team member photo"/>
                   </div>
                   <div className="name-title">
                     <h3>Sanjay Mavalli</h3>
-                    <h4>Sponsors, Judges</h4>
+                    <h4>Outreach</h4>
                   </div>
                 </div>
-              </div>
+                
+                <div className= "member-container">
+                  <div className="photo-container">
+                    <img src="/images/alex.jpg" className="member-img" alt="team member photo"/>
+                  </div>
+                  <div className="name-title">
+                    <h3>Alex Chen</h3>
+                    <h4>Outreach, Website</h4>
+                  </div>
+                </div>
 
-                {/* <div className= "member-container">
-                  <div className="photo-container">
-                    <img src="/images/IMG_5862.jpeg" className="member-img" alt="team member photo"/>
-                    </div>
-                      <div className="name-title">
-                        <h3>Kenny Wang</h3>
-                        <h4>Director</h4>
-                      </div>
-                  </div>
-                </div> */}
-             
-             <div className="row2">
-                <div className= "member-container">
-                  <div className="photo-container">
-                    <img src="/images/jackma.jpg" className="member-img" alt="team member photo"/>
-                  </div>
-                  <div className="name-title">
-                    <h3>Jack Zhang</h3>
-                    <h4>Sponsors Lead</h4>
-                  </div>
-                </div>
-                <div className= "member-container">
-                  <div className="photo-container">
-                    <img src="/images/IMG_5033.jpg" className="member-img" alt="team member photo"/>
-                  </div>
-                  <div className="name-title">
-                    <h3>Shreyash Gajam</h3>
-                    <h4>Sponsors, Venue</h4>
-                  </div>
-                </div>
+                
+
                 <div className="member-container">
                   <div className="photo-container">
                     <img src="/images/josh.jpg" className="member-img" alt="Joshua Kim"/>
                   </div>
                   <div className="name-title">
                     <h3>Joshua Kim</h3>
-                    <h4>Sponsors</h4>
+                    <h4>Outreach</h4>
                   </div>
                 </div>
              </div>

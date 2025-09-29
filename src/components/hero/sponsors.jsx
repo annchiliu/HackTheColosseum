@@ -27,45 +27,55 @@ const sponsors = () => {
                 </a>
               </div>
           </div>
+
           <h2>Our Platinum Sponsors</h2>
           <div className="sponsors-container-sub gold" id="gold-container">
             <div className="sponsors-name">
                     <a href="https://www.constellationenergy.com/" target="_blank">
-                        <img src="/images/Constellation.png" alt="Constellation Energy"/>
+                        <img src="/images/Constellation.png" id="constellation" alt="Constellation Energy"/>
                     </a>
             </div>
                 <div className="sponsors-name">
                     <a href="https://craignewmarkphilanthropies.org/" target="_blank">
-                        <img src="/images/craigs.png" alt="Craig Newmark Philanthropies"/>
+                        <img src="/images/craignewmark.jpg" alt="Craig Newmark Philanthropies"/>
                     </a>
             </div>
             
             <div className="sponsors-name">
                     <a href = "https://www.fidelity.com/about-fidelity/our-company" target="_blank">
-                        <img src="/images/fidelity.png" alt="Fidelity Investments"/>
+                        <img src="/images/fidelityy.jpg" alt="Fidelity Investments"/>
                     </a>
                 </div>
-          </div>
+            </div>
           <h2>Our Silver Sponsors</h2>
           <div className="sponsors-container-sub silver" id="silver-container">
-            <div className="sponsors-name">
-                    <a href="https://www.wegmans.com/" target="_blank">
-                        <img src="/images/Wegmans.png" alt="Wegmans"/>
-                    </a>
-                </div>
                 <div className="sponsors-name">
-                    <a href="https://www.interviewcake.com/" target="_blank">
-                        <img src="/images/cake_logo_white_on_blue.png" alt="Wegmans"/>
+                    <a href="https://www.wegmans.com/" target="_blank">
+                        <img src="/images/Wegmans.png" className="img-120-height" alt="Wegmans"/>
                     </a>
                 </div>
+
+                <div className="sponsors-name">
+                    <a href="https://www.wegmans.com/" target="_blank">
+                        <img src="/images/InterviewCake.jpg" className="img-120-height" alt="Wegmans"/>
+                    </a>
+                </div>
+
                 <div className="sponsors-name">
                     <a href="https://www.wolframalpha.com/" target="_blank">
-                        <img src="/images/WolframAlpha.png" alt="Wolfram Alpha"/>
+                        <img src="/images/wolfram.jpg" className="img-120-height" alt="Wolfram Alpha"/>
                     </a>
                 </div>
+
+                {/* <div className="sponsors-name">
+                    <a href="https://www.wegmans.com/" target="_blank">
+                        <img src="/images/Wegmans.png" className="img-120-height" alt="Wegmans"/>
+                    </a>
+                </div> */}
+
                 <div className="sponsors-name">
                     <a href="https://www.cokeconsolidated.com/" target="_blank">
-                        <img src="/images/cocacola.png" alt="CocaCola Consolidated"/>
+                        <img src="/images/coca-cola-consolidated.jpg" alt="CocaCola Consolidated"/>
                     </a>
                 </div>
           </div>
@@ -73,12 +83,12 @@ const sponsors = () => {
           <div className="sponsors-container-sub bronze">
                 <div className="sponsors-name">
                     <a href="https://artofproblemsolving.com/" target="_blank">
-                        <img src="/images/AOPS.png" alt="Art of Problem Solving"/>
+                        <img src="/images/AOPS.jpg" alt="Art of Problem Solving"/>
                     </a>
                 </div>
                 <div className="sponsors-name">
                     <a href="https://gen.xyz/" target="_blank">
-                        <img src="/images/xyz-logo-color.png" alt=".xyz"/>
+                        <img src="/images/xyz.jpg" className="" alt=".xyz"/>
                     </a>
                 </div>
             </div>
@@ -94,7 +104,7 @@ const sponsors = () => {
         </div>
 
         <div className="past-sponsors-container">
-            <h2>Our Partner</h2>
+            <h2 id="past-partner-title">Our Partner</h2>
             <div className="past-sponsors-container-sub partner" id="partner-container">
                 <div className="past-sponsors-name">
                     <a href="https://polaris.hclibrary.org/Polaris/" target="_blank">
@@ -107,7 +117,7 @@ const sponsors = () => {
             <div className="past-sponsors-container-sub gold" id="gold-container">
                 <div className="past-sponsors-name">
                     <a href="https://www.constellationenergy.com/" target="_blank">
-                        <img src="/images/Constellation.png" alt="Constellation Energy"/>
+                        <img src="/images/Constellation.png" className="img-120-height" alt="Constellation Energy"/>
                     </a>
                 </div>
             </div>
@@ -137,13 +147,13 @@ const sponsors = () => {
             <div className="past-sponsors-container-sub bronze">
                 <div className="past-sponsors-name">
                     <a href="https://www.wolframalpha.com/" target="_blank">
-                        <img src="/images/WolframAlpha.png" alt="Wolfram Alpha"/>
+                        <img src="/images/wolfram.jpg" alt="Wolfram Alpha"/>
                     </a>
                 </div>
 
                 <div className="past-sponsors-name">
                     <a href="https://artofproblemsolving.com/" target="_blank">
-                        <img src="/images/AOPS.png" alt="Art of Problem Solving"/>
+                        <img src="/images/AOPS.jpg" alt="Art of Problem Solving"/>
                     </a>
                 </div>
 

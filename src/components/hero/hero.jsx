@@ -167,11 +167,11 @@ const hero = () => {
 
             <div className="description">
               <p>
-                The Glenelg Competitive Programming Club is excited to introduce its 2nd annual hackathon: Hack the Colosseum 2025. This year’s hackathon is proudly supported by many companies including Constellation, Craig, and Fidelity with more on the way! We hope to see you there!
+                Glenelg Competitive Programming is thrilled to present the 2nd annual Hack the Colosseum 2025, hosted in collaboration with the Howard County Library System. This year’s hackathon is made possible through the generous support of our sponsors, including our platinum sponsors Constellation, Craig Newmark Philanthropies, and Fidelity Investments. We welcome you to an inspiring day of innovation and creativity!
               </p>
               <br/>
               <p>
-                The hackathon will be hosted both in-person at the Elkridge Branch Library and online on Devpost on October 17th.  Prepare for a day filled with workshops, fun activities, and hacking! This hackathon is not affiliated with HCPSS.
+                The hackathon will be hosted both in-person at the Elkridge Branch Library and online on Devpost on October 17th.  Prepare for a day filled with workshops, fun activities, and hacking! Please note, this hackathon is not affiliated with HCPSS.
               </p>
             </div>
 

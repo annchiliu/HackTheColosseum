@@ -21,6 +21,23 @@
   }
 }
 
+#fidelity {
+  width: 250px;
+} 
+
+.img-120-height {
+  height: 120px;
+}
+
+#interview-cake {
+  width: 200px;
+}
+
+#craignewmark {
+  width: 400px;
+  height: 120px;
+}
+
 .past-section-title::after {
   content: "";
   z-index: 99;
@@ -448,6 +465,10 @@
   max-width: 34vw;
 }
 
+#past-partner-title {
+  margin-top: 0px;
+}
+
 .past-sponsors-container h2 {
   font-size: 30px;
   font-weight: 300;
@@ -455,6 +476,8 @@
   font-weight: bold;
   color: rgb(59, 54, 54);
   margin-left: 17px;
+  margin-top: 30px;
+  margin-bottom: 0px;
   @media all and (max-width: 500px) and (max-height: 1024px) {
     font-size: 22px;
   }
