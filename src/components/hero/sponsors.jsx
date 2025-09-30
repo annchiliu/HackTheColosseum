@@ -49,21 +49,21 @@ const sponsors = () => {
             </div>
           <h2>Our Silver Sponsors</h2>
           <div className="sponsors-container-sub silver" id="silver-container">
-                <div className="sponsors-name">
+                <div className="sponsors-name img-80-height">
                     <a href="https://www.wegmans.com/" target="_blank">
-                        <img src="/images/Wegmans.png" className="img-120-height" alt="Wegmans"/>
+                        <img src="/images/Wegmans.png" className="img-80-height" alt="Wegmans"/>
                     </a>
                 </div>
 
-                <div className="sponsors-name">
-                    <a href="https://www.wegmans.com/" target="_blank">
-                        <img src="/images/InterviewCake.jpg" className="img-120-height" alt="Wegmans"/>
+                <div className="sponsors-name img-80-height">
+                    <a href="https://www.interviewcake.com/" target="_blank">
+                        <img src="/images/InterviewCake.jpg" alt="Interview Cake"/>
                     </a>
                 </div>
 
-                <div className="sponsors-name">
+                <div className="sponsors-name img-80-height">
                     <a href="https://www.wolframalpha.com/" target="_blank">
-                        <img src="/images/wolfram.jpg" className="img-120-height" alt="Wolfram Alpha"/>
+                        <img src="/images/wolfram.jpg" alt="Wolfram Alpha"/>
                     </a>
                 </div>
 
@@ -73,7 +73,7 @@ const sponsors = () => {
                     </a>
                 </div> */}
 
-                <div className="sponsors-name">
+                <div className="sponsors-name img-80-height" >
                     <a href="https://www.cokeconsolidated.com/" target="_blank">
                         <img src="/images/coca-cola-consolidated.jpg" alt="CocaCola Consolidated"/>
                     </a>
@@ -135,7 +135,6 @@ const sponsors = () => {
                         <img src="/images/brightbots.jpg" alt="Bright Bots"/>
                     </a>
                 </div>
-
                 <div className="past-sponsors-name">
                     <a href="https://www.netesenz.com/" target="_blank">
                         <img src="/images/Net.png" alt="Netesenz"/>

@@ -21,6 +21,10 @@
   }
 }
 
+.img-80-height {
+  height: 80px;
+}
+
 #fidelity {
   width: 250px;
 } 
