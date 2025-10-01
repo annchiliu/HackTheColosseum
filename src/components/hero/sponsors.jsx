@@ -29,7 +29,7 @@ const sponsors = () => {
           </div>
 
           <h2>Our Platinum Sponsors</h2>
-          <div className="sponsors-container-sub gold" id="gold-container">
+          <div className="sponsors-container-sub plat" id="plat-container">
             <div className="sponsors-name">
                     <a href="https://www.constellationenergy.com/" target="_blank">
                         <img src="/images/Constellation.png" id="constellation" alt="Constellation Energy"/>
@@ -47,6 +47,14 @@ const sponsors = () => {
                     </a>
                 </div>
             </div>
+            <h2>Our Gold Sponsors</h2>
+                <div className="sponsors-container-sub gold" id="gold-container">
+                    <div className="sponsors-name">
+                        <a href="https://www.mathworks.com/?s_tid=gn_logo" target="_blank">
+                            <img src="/images/mathworks.jpg" alt="MathWorks"/>
+                        </a>
+                    </div>
+                </div>
           <h2>Our Silver Sponsors</h2>
           <div className="sponsors-container-sub silver" id="silver-container">
                 <div className="sponsors-name img-80-height">

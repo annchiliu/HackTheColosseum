@@ -253,8 +253,12 @@
   border: rgb(66, 103, 196) 3px solid;
 }
 
-.gold img {
+.plat img {
   border: rgb(195, 192, 192) 3px solid;
+}
+
+.gold img{
+  border: rgb(197, 158, 1) 3px solid;
 }
 
 .silver img {
@@ -268,7 +272,7 @@
 .sponsors-name img {
   max-width: 350px;
   width: auto;
-  height: auto;
+  height: 110px;
   max-height: 120px; /* Current sponsors max height */
   min-height: 80px;
   border-radius: 10px;
@@ -538,7 +542,7 @@
   border: rgb(66, 103, 196) 3px solid;
 }
 
-.gold img {
+.plat img {
   border: rgb(195, 192, 192) 3px solid;
 }
 
