@@ -52,7 +52,7 @@ const contact = () => {
                   </div>
                   <div className="name-title">
                     <h3>Annchi Liu</h3>
-                    <h4>Associate Director</h4>
+                    <h4>Director</h4>
                   </div>
                 </div>
 
@@ -62,21 +62,11 @@ const contact = () => {
                   </div>
                   <div className="name-title">
                     <h3>Jack Zhang</h3>
-                    <h4>Associate Director</h4>
+                    <h4>Director</h4>
                   </div>
                 </div>
               </div>
              <div className="row2">
-                
-                <div className= "member-container">
-                  <div className="photo-container">
-                    <img src="/images/sanjayyy.jpg" className="member-img" alt="team member photo"/>
-                  </div>
-                  <div className="name-title">
-                    <h3>Sanjay Mavalli</h3>
-                    <h4>Outreach</h4>
-                  </div>
-                </div>
                 
                 <div className= "member-container">
                   <div className="photo-container">
@@ -89,6 +79,15 @@ const contact = () => {
                 </div>
 
                 
+                <div className= "member-container">
+                  <div className="photo-container">
+                    <img src="/images/sanjayyy.jpg" className="member-img" alt="team member photo"/>
+                  </div>
+                  <div className="name-title">
+                    <h3>Sanjay Mavalli</h3>
+                    <h4>Outreach</h4>
+                  </div>
+                </div>
 
                 <div className="member-container">
                   <div className="photo-container">
