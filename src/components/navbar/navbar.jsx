@@ -33,7 +33,7 @@ const Navbar = () => {
       action: "click",
       label: "register",
     });
-    window.open("https://howardcounty.librarycalendar.com/event/hack-colosseum-276266");
+    window.open("https://howardcounty.librarycalendar.com/event/hack-colosseum-363584");
   };
 
   const handleDonateClick = () => {

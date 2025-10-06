@@ -21,7 +21,7 @@ const hero = () => {
       action: "click",
       label: "register",
     });
-    window.open("https://howardcounty.librarycalendar.com/event/hack-colosseum-276266"); // Change form here
+    window.open("https://howardcounty.librarycalendar.com/event/hack-colosseum-3635844"); // Change form here
   };
   
   const handleDevPostClick = () => {
@@ -30,7 +30,7 @@ const hero = () => {
       action: "click",
       label: "register",
     });
-    window.open("https://hack-the-colosseum.devpost.com/?ref_content=online-hackathons&ref_feature=challenge&ref_medium=artificial-intelligence-channel");
+    window.open("https://hack-the-colosseum-26797.devpost.com/");
   };
 
   const handleRulesClick = () => {
@@ -39,7 +39,7 @@ const hero = () => {
       action: "click",
       label: "register",
     });
-    window.open("https://hack-the-colosseum.devpost.com/rules");
+    window.open("https://hack-the-colosseum-26797.devpost.com/rules");
   };
 
   const handleCardClicks = (card) => {
