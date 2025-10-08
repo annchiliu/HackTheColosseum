@@ -21,7 +21,7 @@ const hero = () => {
       action: "click",
       label: "register",
     });
-    window.open("https://howardcounty.librarycalendar.com/event/hack-colosseum-3635844"); // Change form here
+    window.open("https://howardcounty.librarycalendar.com/event/hack-colosseum-363584"); // Change form here
   };
   
   const handleDevPostClick = () => {

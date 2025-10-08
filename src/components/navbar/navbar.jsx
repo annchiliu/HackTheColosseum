@@ -28,13 +28,13 @@ const Navbar = () => {
   };
 
   const handleRegisterClick = () => {
-    ReactGA.event({
-      category: "Button",
-      action: "click",
-      label: "register",
-    });
-    window.open("https://howardcounty.librarycalendar.com/event/hack-colosseum-363584");
-  };
+     ReactGA.event({
+       category: "Button",
+       action: "click",
+       label: "register",
+     });
+     window.open("https://howardcounty.librarycalendar.com/event/hack-colosseum-363584");
+   };
 
   const handleDonateClick = () => {
     ReactGA.event({
@@ -189,7 +189,7 @@ const Navbar = () => {
                   </a>
                 </h2>
                 <h2 className="register-mobile">
-                  <a href="https://howardcounty.librarycalendar.com/event/hack-colosseum-276266" target="_blank">
+                  <a href="https://howardcounty.librarycalendar.com/event/hack-colosseum-363584" target="_blank">
                     register
                   </a>
                 </h2>
