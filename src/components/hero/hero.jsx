@@ -272,13 +272,16 @@ const hero = () => {
 
                   <ol>
                     <li>
-                      Gaming Keyboard
+                      MageGee Mechanical Gaming Keyboard
                     </li>
                     <li>
-                      AoPS gift cards
+                      AoPS Gift Card
                     </li>
                     <li>
-                      1-year access to Wolfram | One Professional Edition
+                      Interview Cake Full Access License
+                    </li>
+                    <li>
+                      1 Year .XYZ Domain License
                     </li>
                   </ol>
 
@@ -292,7 +295,10 @@ const hero = () => {
                       Wireless Earbuds
                     </li>
                     <li>
-                      1-year access to Wolfram | One Professional Edition
+                      Interview Cake Full Access License
+                    </li>
+                    <li>
+                      1 Year .XYZ Domain License
                     </li>
                   </ol>
 
@@ -303,20 +309,34 @@ const hero = () => {
                   </h4>
                   <ol>
                     <li>
-                      Raspberry Pi 4
+                      Raspberry Pi 5
                     </li>
                     <li>
-                      1-year access to Wolfram | One Professional Edition
+                      Interview Cake Full Access License
                     </li>
                   </ol>
 
                   {/* ------------------------------ */}
 
                   <h4 className="prize-title">
-                  In-Person Activity (2x)
+                  In-Person Best Beginner Hack Runner-Up
+                  </h4>
+                  <ol>
+                    <li>
+                      Amazon Echo Pop Speaker
+                    </li>
+                    <li>
+                      Interview Cake Full Access License
+                    </li>
+                  </ol>
+
+                  {/* ------------------------------ */}
+
+                  <h4 className="prize-title">
+                  In-Person Activities (x12)
                   </h4>
                   <p>
-                  The winner of each of activity will win a $5 Amazon gift card
+                  Assorted Gift Cards
                   </p><br/>
 
                   {/* ------------------------------ */}
@@ -328,11 +348,14 @@ const hero = () => {
                     </h4>
                     <ol>
                       <li>
-                        $25 Apple Gift Card
+                        $20 Amazon Gift Card
                       </li>
                       <li>
-                        1-year access to Wolfram | One Professional Edition
+                        Interview Cake Full Access License
                       </li>
+                      <li>
+                      1 Year .XYZ Domain License
+                    </li>
                     </ol>
                     {/* ------------------------------ */}
                 </div>

@@ -142,7 +142,7 @@ const Navbar = () => {
               <p onClick={() => window.open("/", "_self")}>HOME</p>
             </li>
             <li>
-              <p onClick={() => handleScroll("#agenda")}>AGENDA</p>
+              <p onClick={() => handleScroll("#agenda")}>ABOUT</p>
             </li>
             <li>
               <p onClick={handleScheduleClick}>SCHEDULE</p>
