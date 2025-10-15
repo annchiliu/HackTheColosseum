@@ -272,19 +272,16 @@ const hero = () => {
 
                   <ol>
                     <li>
-                      MageGee Mechanical Gaming Keyboard
+                      Samsumg 24" Monitor
                     </li>
                     <li>
-                      $60 in Gift Cards
+                      AoPS Gift Card
                     </li>
                     <li>
                       Interview Cake Full Access License
                     </li>
                     <li>
                       1 Year .XYZ Domain License
-                    </li>
-                    <li>
-                      4x Monitors
                     </li>
                   </ol>
 
@@ -295,16 +292,16 @@ const hero = () => {
                   </h4>
                   <ol>
                     <li>
-                      Beats Wireless Headphones
+                      Beats Solos Earbuds
+                    </li>
+                    <li>
+                      3 Months Apple Music
                     </li>
                     <li>
                       Interview Cake Full Access License
                     </li>
                     <li>
                       1 Year .XYZ Domain License
-                    </li>
-                    <li>
-                      $60 in Gift Cards
                     </li>
                   </ol>
 
@@ -315,13 +312,13 @@ const hero = () => {
                   </h4>
                   <ol>
                     <li>
+                      MageGee Mechanical Gaming Keyboard
+                    </li>
+                    <li>
                       Raspberry Pi 5
                     </li>
                     <li>
                       Interview Cake Full Access License
-                    </li>
-                    <li>
-                      $40 in Gift Cards
                     </li>
                   </ol>
 
@@ -333,6 +330,9 @@ const hero = () => {
                   <ol>
                     <li>
                       Amazon Echo Pop Speaker
+                    </li>
+                    <li>
+                      Wireless Earbuds
                     </li>
                     <li>
                       Interview Cake Full Access License
@@ -357,7 +357,7 @@ const hero = () => {
                     </h4>
                     <ol>
                       <li>
-                        $30 Amazon Gift Card
+                        $40 Amazon Gift Card
                       </li>
                       <li>
                         Interview Cake Full Access License
