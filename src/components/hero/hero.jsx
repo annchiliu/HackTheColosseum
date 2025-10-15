@@ -275,7 +275,7 @@ const hero = () => {
                       Samsumg 24" Monitor
                     </li>
                     <li>
-                      AoPS Gift Card
+                      $25 AoPS Gift Card
                     </li>
                     <li>
                       Interview Cake Full Access License
