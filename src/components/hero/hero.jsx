@@ -275,13 +275,16 @@ const hero = () => {
                       MageGee Mechanical Gaming Keyboard
                     </li>
                     <li>
-                      AoPS Gift Card
+                      $60 in Gift Cards
                     </li>
                     <li>
                       Interview Cake Full Access License
                     </li>
                     <li>
                       1 Year .XYZ Domain License
+                    </li>
+                    <li>
+                      4x Monitors
                     </li>
                   </ol>
 
@@ -292,13 +295,16 @@ const hero = () => {
                   </h4>
                   <ol>
                     <li>
-                      Wireless Earbuds
+                      Beats Wireless Headphones
                     </li>
                     <li>
                       Interview Cake Full Access License
                     </li>
                     <li>
                       1 Year .XYZ Domain License
+                    </li>
+                    <li>
+                      $60 in Gift Cards
                     </li>
                   </ol>
 
@@ -313,6 +319,9 @@ const hero = () => {
                     </li>
                     <li>
                       Interview Cake Full Access License
+                    </li>
+                    <li>
+                      $40 in Gift Cards
                     </li>
                   </ol>
 
@@ -348,7 +357,7 @@ const hero = () => {
                     </h4>
                     <ol>
                       <li>
-                        $20 Amazon Gift Card
+                        $30 Amazon Gift Card
                       </li>
                       <li>
                         Interview Cake Full Access License

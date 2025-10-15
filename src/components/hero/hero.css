@@ -619,7 +619,8 @@ ol {
   flex-direction: row;
   padding: 0px;
   margin: 0px;
-  height: 350px;
+  height: auto;
+  margin-bottom: 90px;
   @media all and (max-width: 500px) {
     flex-direction: column;
     gap: 10px;
