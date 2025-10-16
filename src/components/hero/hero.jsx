@@ -272,7 +272,7 @@ const hero = () => {
 
                   <ol>
                     <li>
-                      Samsumg 24" Monitor
+                      Samsung 24" Monitor
                     </li>
                     <li>
                       $25 AoPS Gift Card
